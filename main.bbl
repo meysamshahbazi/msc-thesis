@@ -121,6 +121,12 @@ K.-Y. Zhang, T.~Yao, J.~Zhang, Y.~Tai, S.~Ding, J.~Li, F.~Huang, H.~Song, and
   \emph{European Conference on Computer Vision}.\hskip 1em plus 0.5em minus
   0.4em\relax Springer, 2020, pp. 641--657.
 
+\bibitem{zhang2012face}
+Z.~Zhang, J.~Yan, S.~Liu, Z.~Lei, D.~Yi, and S.~Z. Li, ``A face antispoofing
+  database with diverse attacks,'' in \emph{2012 5th IAPR international
+  conference on Biometrics (ICB)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2012, pp. 26--31.
+
 \bibitem{ramachandra2017presentation}
 R.~Ramachandra and C.~Busch, ``Presentation attack detection methods for face
   recognition systems: A comprehensive survey,'' \emph{ACM Computing Surveys
@@ -262,5 +268,10 @@ X.~Tu, Z.~Ma, J.~Zhao, G.~Du, M.~Xie, and J.~Feng, ``Learning generalizable and
 X.~Xu, Y.~Xiong, and W.~Xia, ``On improving temporal consistency for online
   face liveness detection system,'' in \emph{Proceedings of the IEEE/CVF
   International Conference on Computer Vision}, 2021, pp. 824--833.
+
+\bibitem{wen2015face}
+D.~Wen, H.~Han, and A.~K. Jain, ``Face spoof detection with image distortion
+  analysis,'' \emph{IEEE Transactions on Information Forensics and Security},
+  vol.~10, no.~4, pp. 746--761, 2015.
 
 \end{thebibliography}

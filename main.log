@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  28 APR 2022 12:04
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  28 APR 2022 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3059,6 +3059,9 @@ LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
 [1] (./main.mw)
 \openout5 = `main.mw'.
 
+
+Underfull \vbox (badness 5504) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
 (Font)              scaled to size 11.99997pt on input line 44.
 
@@ -3073,10 +3076,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [2] (./main.mw)
 \openout5 = `main.mw'.
 
-)
-\tf@toc=\write25
-\openout5 = `main.toc'.
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3088,6 +3087,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3] (./main.mw)
 \openout5 = `main.mw'.
+
+)
+\tf@toc=\write25
+\openout5 = `main.toc'.
 
 
 
@@ -3652,7 +3655,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [23] (./main.mw)
 \openout5 = `main.mw'.
 
-)
+File: ./img/replay.png Graphic file (type bmp)
+<./img/replay.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.89014pt.
@@ -3672,13 +3680,99 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
+File: ./img/casia.png Graphic file (type bmp)
+<./img/casia.png>
+
+Underfull \vbox (badness 5802) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.89014pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[25] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+File: ./img/msu.png Graphic file (type bmp)
+<./img/msu.png>
+File: ./img/oulureal.png Graphic file (type bmp)
+<./img/oulureal.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./img/oulufake.png Graphic file (type bmp)
+<./img/oulufake.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.89014pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[26] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+File: ./img/siw.png Graphic file (type bmp)
+<./img/siw.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.89014pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[27] (./main.mw)
+\openout5 = `main.mw'.
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.89014pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[28] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout2 = `./tex/chapter3.aux'.
 
  (./tex/chapter3.tex
 فصل 3.
 \openout5 = `main.mw'.
 
-[25
+[29
 
 
 
@@ -3714,7 +3808,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[26] (./main.mw)
+[30] (./main.mw)
 \openout5 = `main.mw'.
 
 
@@ -3726,7 +3820,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[27] (./main.mw)
+[31] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `./tex/chapter4.aux'.
@@ -3734,7 +3828,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  (./tex/chapter4.tex
 \openout5 = `main.mw'.
 
- [28
+ [32
 
 
 
@@ -3748,7 +3842,7 @@ Underfull \vbox (badness 6559) has occurred while \output is active []
 
 \openout5 = `main.mw'.
 
- [29]
+ [33]
 (./main.mw)
 \openout5 = `main.mw'.
 
@@ -3773,7 +3867,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[30] (./main.mw)
+[34] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -3792,7 +3886,7 @@ LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/it' will be
 (Font)              scaled to size 14.39996pt on input line 24.
 \openout5 = `main.mw'.
 
-[31
+[35
 
 
 
@@ -3816,7 +3910,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[32] (./main.mw)
+[36] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -3840,7 +3934,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[33] (./main.mw)
+[37] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -3854,7 +3948,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  (./main.bbl
 \openout5 = `main.mw'.
 
- [34
+ [38
 
 
 ] (./main.mw)
@@ -3880,7 +3974,7 @@ Missing character: There is no ̈ in font [./font/IRLotusICEE.ttf]/OT:script=ara
 b;language=DFLT;mapping=parsidigits;!
 \openout5 = `main.mw'.
 
-[35] (./main.mw)
+[39] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -3888,36 +3982,36 @@ b;language=DFLT;mapping=parsidigits;!
 \openout5 = `main.mw'.
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 130--134
+Underfull \hbox (badness 1762) in paragraph at lines 136--140
 [][]\TU/IRLotusICEE.ttf(1)/m/it/10.95 T. d. Freitas Pereira، A. Anjos، J. M. D.
  Martino، and S. Marcel، “Lbp- top based[]
  []
 
 \openout5 = `main.mw'.
 
-[36] (./main.mw)
+[40] (./main.mw)
 \openout5 = `main.mw'.
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 145--149
+Underfull \hbox (badness 1072) in paragraph at lines 151--155
 [][]\TU/IRLotusICEE.ttf(1)/m/it/10.95 J. Gan، S. Li، Y. Zhai، and C. Liu، “۳d c
 onvolutional neural network based on face[]
  []
 
 \openout5 = `main.mw'.
 
-[37] (./main.mw)
+[41] (./main.mw)
 \openout5 = `main.mw'.
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 239--242
+Underfull \hbox (badness 4752) in paragraph at lines 245--248
 [][]\TU/IRLotusICEE.ttf(1)/m/it/10.95 I. Goodfellow، J. Pouget-Abadie، M. Mirza
 ، B. Xu، D. Warde-Farley، S. Ozair،[]
  []
 
 \openout5 = `main.mw'.
 
-[38] (./main.mw)
+[42] (./main.mw)
 \openout5 = `main.mw'.
 
 )
@@ -3929,7 +4023,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[39] (./main.mw)
+[43] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `./tex/appendix1.aux'.
@@ -3937,7 +4031,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  (./tex/appendix1.tex
 \openout5 = `main.mw'.
 
- [40
+ [44
 
 
 ] (./main.mw)
@@ -3954,7 +4048,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \openout5 = `main.mw'.
 
- [41]
+ [45]
 (./main.mw)
 \openout5 = `main.mw'.
 
@@ -3978,7 +4072,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[42] (./main.mw)
+[46] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4004,7 +4098,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[43] (./main.mw)
+[47] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4024,7 +4118,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[44] (./main.mw)
+[48] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4037,7 +4131,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-LaTeX Warning: Citation `Gonzalez02book' on page 45 undefined on input line 134
+LaTeX Warning: Citation `Gonzalez02book' on page 49 undefined on input line 134
 .
 
 
@@ -4054,7 +4148,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[45] (./main.mw)
+[49] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4072,7 +4166,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[46] (./main.mw)
+[50] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `./tex/appendix2.aux'.
@@ -4081,7 +4175,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 فصل 7.
 \openout5 = `main.mw'.
 
-[47
+[51
 
 
 
@@ -4107,7 +4201,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[48] (./main.mw)
+[52] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4142,7 +4236,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[49] (./main.mw)
+[53] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4170,7 +4264,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[50] (./main.mw)
+[54] (./main.mw)
 \openout5 = `main.mw'.
 
 File: ./img/lion.jpg Graphic file (type bmp)
@@ -4197,7 +4291,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[51] (./main.mw)
+[55] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4217,7 +4311,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[52] (./main.mw)
+[56] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4237,7 +4331,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[53] (./main.mw)
+[57] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `./tex/appendix3.aux'.
@@ -4245,7 +4339,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  (./tex/appendix3.tex
 \openout5 = `main.mw'.
 
- [54
+ [58
 
 
 
@@ -4255,16 +4349,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 فصل 8.
 
-LaTeX Warning: Citation `persianbib87userguide' on page 55 undefined on input l
+LaTeX Warning: Citation `persianbib87userguide' on page 59 undefined on input l
 ine 20.
 
 
-LaTeX Warning: Citation `persianbib87userguide' on page 55 undefined on input l
+LaTeX Warning: Citation `persianbib87userguide' on page 59 undefined on input l
 ine 26.
 
 \openout5 = `main.mw'.
 
-[55] (./main.mw)
+[59] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4287,7 +4381,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[56] (./main.mw)
+[60] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4296,26 +4390,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-LaTeX Warning: Citation `UTThesisGuide' on page 57 undefined on input line 84.
+LaTeX Warning: Citation `UTThesisGuide' on page 61 undefined on input line 84.
 
 
-LaTeX Warning: Citation `UTThesisGuide' on page 57 undefined on input line 106.
+LaTeX Warning: Citation `UTThesisGuide' on page 61 undefined on input line 106.
 
 
 
-LaTeX Warning: Citation `Khalighi87xepersian' on page 57 undefined on input lin
+LaTeX Warning: Citation `Khalighi87xepersian' on page 61 undefined on input lin
 e 117.
 
 
-LaTeX Warning: Citation `persianbib87userguide' on page 57 undefined on input l
+LaTeX Warning: Citation `persianbib87userguide' on page 61 undefined on input l
 ine 117.
 
 
-LaTeX Warning: Citation `Gonzalez02book' on page 57 undefined on input line 117
+LaTeX Warning: Citation `Gonzalez02book' on page 61 undefined on input line 117
 .
 
 
-LaTeX Warning: Citation `kim2016integrated' on page 57 undefined on input line 
+LaTeX Warning: Citation `kim2016integrated' on page 61 undefined on input line 
 117.
 
 
@@ -4326,7 +4420,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[57] (./main.mw)
+[61] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4335,11 +4429,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-LaTeX Warning: Citation `UTThesisGuide' on page 58 undefined on input line 127.
+LaTeX Warning: Citation `UTThesisGuide' on page 62 undefined on input line 127.
 
 
 
-LaTeX Warning: Citation `UTThesisGuide' on page 58 undefined on input line 135.
+LaTeX Warning: Citation `UTThesisGuide' on page 62 undefined on input line 135.
 
 
 
@@ -4350,7 +4444,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[58] (./main.mw)
+[62] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4359,50 +4453,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-LaTeX Warning: Citation `Baker02limits' on page 59 undefined on input line 175.
+LaTeX Warning: Citation `Baker02limits' on page 63 undefined on input line 175.
 
 
 
-LaTeX Warning: Citation `Amintoosi09video' on page 59 undefined on input line 1
+LaTeX Warning: Citation `Amintoosi09video' on page 63 undefined on input line 1
 77.
 
 
-LaTeX Warning: Citation `Gonzalez02book' on page 59 undefined on input line 179
+LaTeX Warning: Citation `Gonzalez02book' on page 63 undefined on input line 179
 .
 
 
-LaTeX Warning: Citation `Khalighi07MscThesis' on page 59 undefined on input lin
+LaTeX Warning: Citation `Khalighi07MscThesis' on page 63 undefined on input lin
 e 181.
 
 
-LaTeX Warning: Citation `Borman04thesis' on page 59 undefined on input line 183
+LaTeX Warning: Citation `Borman04thesis' on page 63 undefined on input line 183
 .
 
 
-LaTeX Warning: Citation `Vahedi87' on page 59 undefined on input line 188.
+LaTeX Warning: Citation `Vahedi87' on page 63 undefined on input line 188.
 
 
-LaTeX Warning: Citation `Amintoosi87afzayesh' on page 59 undefined on input lin
+LaTeX Warning: Citation `Amintoosi87afzayesh' on page 63 undefined on input lin
 e 190.
 
 
-LaTeX Warning: Citation `Pedram80osool' on page 59 undefined on input line 192.
+LaTeX Warning: Citation `Pedram80osool' on page 63 undefined on input line 192.
 
 
 
-LaTeX Warning: Citation `Pourmousa88mscThesis' on page 59 undefined on input li
+LaTeX Warning: Citation `Pourmousa88mscThesis' on page 63 undefined on input li
 ne 194.
 
 
-LaTeX Warning: Citation `Omidali82phdThesis' on page 59 undefined on input line
+LaTeX Warning: Citation `Omidali82phdThesis' on page 63 undefined on input line
  200.
 
 
-LaTeX Warning: Citation `persianbib87userguide' on page 59 undefined on input l
+LaTeX Warning: Citation `persianbib87userguide' on page 63 undefined on input l
 ine 202.
 
 
-LaTeX Warning: Citation `Khalighi87xepersian' on page 59 undefined on input lin
+LaTeX Warning: Citation `Khalighi87xepersian' on page 63 undefined on input lin
 e 202.
 
 
@@ -4413,7 +4507,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[59] (./main.mw)
+[63] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4432,7 +4526,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[60] (./main.mw)
+[64] (./main.mw)
 \openout5 = `main.mw'.
 
 
@@ -4444,7 +4538,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[61] (./main.mw)
+[65] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4512,7 +4606,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[62] (./main.mw)
+[66] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4544,7 +4638,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[63] (./main.mw)
+[67] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4584,7 +4678,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[64] (./main.mw)
+[68] (./main.mw)
 \openout5 = `main.mw'.
 
 
@@ -4737,6 +4831,46 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 \openout5 = `main.mw'.
 
 ) (./tex/chapter2.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5218,12 +5352,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 46101 strings out of 493007
- 895713 string characters out of 6136719
- 1108636 words of memory out of 5000000
- 48836 multiletter control sequences out of 15000+600000
+ 46145 strings out of 493007
+ 896392 string characters out of 6136719
+ 1110117 words of memory out of 5000000
+ 48866 multiletter control sequences out of 15000+600000
  541552 words of font info for 128 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,96p,10465b,1786s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (99 pages).
+Output written on main.pdf (103 pages).

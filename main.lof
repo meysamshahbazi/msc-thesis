@@ -22,14 +22,20 @@
 \contentsline {figure}{\numberline {2.19}{\ignorespaces ساختار U-net و تابع هزینه سه‌گانه \cite {feng2020learning} \relax }}{22}{figure.caption.26}
 \contentsline {figure}{\numberline {2.20}{\ignorespaces کاهش فاصله نمونه‌های واقعی تا مرکز و افزایش فاصله نمونه‌های تقلبی تا مرکز \cite {george2020learning} \relax }}{22}{figure.caption.27}
 \contentsline {figure}{\numberline {2.21}{\ignorespaces استفاده از LBP در کنار عمق برای یافتن ویژگی‌های خوش ساخت \cite {zhang2020face} \relax }}{23}{figure.caption.28}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces نمونه‌هایی از دیتاست Replay \cite {chingovska2012effectiveness} \relax }}{25}{figure.caption.29}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces نمونه‌هایی از دیتاست CASIA \cite {zhang2012face} \relax }}{25}{figure.caption.30}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces نمونه‌هایی از دیتاست MSU \cite {wen2015face} \relax }}{26}{figure.caption.31}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces نمونه‌های واقعی در دیتاست OULU \cite {boulkenafet2017oulu} \relax }}{27}{figure.caption.32}
+\contentsline {figure}{\numberline {2.26}{\ignorespaces نمونه‌های تقلبی در دیتاست OULU \cite {boulkenafet2017oulu} \relax }}{27}{figure.caption.33}
+\contentsline {figure}{\numberline {2.27}{\ignorespaces نمونه‌های از دیتاست SIW \cite {liu2018learning} \relax }}{28}{figure.caption.34}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces در این تصویر یک شیر علاقه‌مند به لاتک را در حال دویدن می‌بینید.\relax }}{43}{figure.caption.34}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces در این تصویر یک شیر علاقه‌مند به لاتک را در حال دویدن می‌بینید.\relax }}{47}{figure.caption.40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces دو شیر\relax }}{52}{figure.caption.38}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {شیر ۱}}}{52}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {شیر ۲}}}{52}{subfigure.1.2}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces یک نمودار زیبا با ارقام فارسی و قابلیت بزرگ‌نمایی بسیار، بدون از دست دادن کیفیت.\relax }}{53}{figure.caption.39}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces دو شیر\relax }}{56}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {شیر ۱}}}{56}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {شیر ۲}}}{56}{subfigure.1.2}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces یک نمودار زیبا با ارقام فارسی و قابلیت بزرگ‌نمایی بسیار، بدون از دست دادن کیفیت.\relax }}{57}{figure.caption.45}
 \addvspace {10\p@ }
