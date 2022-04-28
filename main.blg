@@ -36,45 +36,45 @@ Warning--I didn't find a database entry for "Omidali82phdThesis"
 Warning--empty journal in parkhi2015deep
 
 Done.
-You've used 43 entries,
+You've used 44 entries,
             4087 wiz_defined-function locations,
-            1071 strings with 16776 characters,
-and the built_in function-call counts, 36710 in all, are:
-= -- 2758
-> -- 1081
-< -- 298
-+ -- 582
-- -- 203
-* -- 1762
-:= -- 5095
-add.period$ -- 102
-call.type$ -- 43
-change.case$ -- 43
-chr.to.int$ -- 750
-cite$ -- 44
-duplicate$ -- 2579
-empty$ -- 3102
-format.name$ -- 240
-if$ -- 8690
+            1076 strings with 16986 characters,
+and the built_in function-call counts, 37622 in all, are:
+= -- 2828
+> -- 1102
+< -- 307
++ -- 594
+- -- 206
+* -- 1804
+:= -- 5216
+add.period$ -- 104
+call.type$ -- 44
+change.case$ -- 44
+chr.to.int$ -- 774
+cite$ -- 45
+duplicate$ -- 2641
+empty$ -- 3183
+format.name$ -- 244
+if$ -- 8910
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 470
-newline$ -- 152
-num.names$ -- 43
-pop$ -- 1215
+int.to.str$ -- 44
+missing$ -- 480
+newline$ -- 155
+num.names$ -- 44
+pop$ -- 1241
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2783
+skip$ -- 2855
 stack$ -- 0
-substring$ -- 1817
-swap$ -- 2081
-text.length$ -- 48
+substring$ -- 1874
+swap$ -- 2132
+text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 43
+type$ -- 44
 warning$ -- 1
-while$ -- 176
-width$ -- 45
-write$ -- 413
+while$ -- 181
+width$ -- 46
+write$ -- 422
 (There were 15 warnings)

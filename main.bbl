@@ -115,6 +115,12 @@ A.~George and S.~Marcel, ``Learning one class representations for face
   networks,'' \emph{IEEE Transactions on Information Forensics and Security},
   vol.~16, pp. 361--375, 2020.
 
+\bibitem{zhang2020face}
+K.-Y. Zhang, T.~Yao, J.~Zhang, Y.~Tai, S.~Ding, J.~Li, F.~Huang, H.~Song, and
+  L.~Ma, ``Face anti-spoofing via disentangled representation learning,'' in
+  \emph{European Conference on Computer Vision}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2020, pp. 641--657.
+
 \bibitem{ramachandra2017presentation}
 R.~Ramachandra and C.~Busch, ``Presentation attack detection methods for face
   recognition systems: A comprehensive survey,'' \emph{ACM Computing Surveys
@@ -252,10 +258,9 @@ X.~Tu, Z.~Ma, J.~Zhao, G.~Du, M.~Xie, and J.~Feng, ``Learning generalizable and
   Transactions on Intelligent Systems and Technology (TIST)}, vol.~11, no.~5,
   pp. 1--19, 2020.
 
-\bibitem{zhang2020face}
-K.-Y. Zhang, T.~Yao, J.~Zhang, Y.~Tai, S.~Ding, J.~Li, F.~Huang, H.~Song, and
-  L.~Ma, ``Face anti-spoofing via disentangled representation learning,'' in
-  \emph{European Conference on Computer Vision}.\hskip 1em plus 0.5em minus
-  0.4em\relax Springer, 2020, pp. 641--657.
+\bibitem{xu2021improving}
+X.~Xu, Y.~Xiong, and W.~Xia, ``On improving temporal consistency for online
+  face liveness detection system,'' in \emph{Proceedings of the IEEE/CVF
+  International Conference on Computer Vision}, 2021, pp. 824--833.
 
 \end{thebibliography}
