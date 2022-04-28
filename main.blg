@@ -1,0 +1,80 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: ./tex/chapter1.aux
+A level-1 auxiliary file: ./tex/chapter2.aux
+A level-1 auxiliary file: ./tex/chapter3.aux
+A level-1 auxiliary file: ./tex/chapter4.aux
+A level-1 auxiliary file: ./tex/chapter5.aux
+The style file: IEEEtran.bst
+A level-1 auxiliary file: ./tex/appendix1.aux
+A level-1 auxiliary file: ./tex/appendix2.aux
+A level-1 auxiliary file: ./tex/appendix3.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ./tex/MyReferences.bib
+Warning--I didn't find a database entry for "Gonzalez02book"
+Warning--I didn't find a database entry for "persianbib87userguide"
+Warning--I didn't find a database entry for "UTThesisGuide"
+Warning--I didn't find a database entry for "Khalighi87xepersian"
+Warning--I didn't find a database entry for "kim2016integrated"
+Warning--I didn't find a database entry for "Baker02limits"
+Warning--I didn't find a database entry for "Amintoosi09video"
+Warning--I didn't find a database entry for "Khalighi07MscThesis"
+Warning--I didn't find a database entry for "Borman04thesis"
+Warning--I didn't find a database entry for "Vahedi87"
+Warning--I didn't find a database entry for "Amintoosi87afzayesh"
+Warning--I didn't find a database entry for "Pedram80osool"
+Warning--I didn't find a database entry for "Pourmousa88mscThesis"
+Warning--I didn't find a database entry for "Omidali82phdThesis"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in parkhi2015deep
+
+Done.
+You've used 43 entries,
+            4087 wiz_defined-function locations,
+            1071 strings with 16776 characters,
+and the built_in function-call counts, 36710 in all, are:
+= -- 2758
+> -- 1081
+< -- 298
++ -- 582
+- -- 203
+* -- 1762
+:= -- 5095
+add.period$ -- 102
+call.type$ -- 43
+change.case$ -- 43
+chr.to.int$ -- 750
+cite$ -- 44
+duplicate$ -- 2579
+empty$ -- 3102
+format.name$ -- 240
+if$ -- 8690
+int.to.chr$ -- 0
+int.to.str$ -- 43
+missing$ -- 470
+newline$ -- 152
+num.names$ -- 43
+pop$ -- 1215
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2783
+stack$ -- 0
+substring$ -- 1817
+swap$ -- 2081
+text.length$ -- 48
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 43
+warning$ -- 1
+while$ -- 176
+width$ -- 45
+write$ -- 413
+(There were 15 warnings)
