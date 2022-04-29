@@ -12,7 +12,7 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces روش استفاده از عمق و تخمین rPPG \cite {liu2018learning}\relax }}{15}{figure.caption.16}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces استفاده از ویژگی‌های عمیق در طول زمان \cite {wang2018exploiting}\relax }}{15}{figure.caption.17}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces نحوه محاسبه تابع هزینه CDL\relax }}{16}{figure.caption.18}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces عملگر کانولوشن تغییر یافته \cite {yu2020searching} \relax }}{17}{figure.caption.19}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces عملگر کانولوشن تغییر یافته \cite {yu2020searching} \relax }}{16}{figure.caption.19}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces روش استفاده از فیلتر bilateral در شبکه عمیق \cite {yu2020face} \relax }}{18}{figure.caption.20}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces تابع هزینه BCE روی یک صفحه مسطح به‌جای یک نورون \cite {george2019deep} \relax }}{18}{figure.caption.21}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces ساختار بر پایه استفاده از شبکه مولد برای تخمین علائم تقلب در سطوح مختلف \cite {liu2020disentangling} \relax }}{19}{figure.caption.22}
@@ -29,13 +29,15 @@
 \contentsline {figure}{\numberline {2.26}{\ignorespaces نمونه‌های تقلبی در دیتاست OULU \cite {boulkenafet2017oulu} \relax }}{27}{figure.caption.33}
 \contentsline {figure}{\numberline {2.27}{\ignorespaces نمونه‌های از دیتاست SIW \cite {liu2018learning} \relax }}{28}{figure.caption.34}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces مقایسه تابع هزینه BCE کلاسیک با نسخه‌ی حاشیه‌دار \relax }}{35}{figure.caption.35}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces حالتی که دو نمونه متعلق به یک شخص ولی یکی واقعی و دیگری تقلبی است\relax }}{36}{figure.caption.36}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces حالتی که دو نمونه متعلق به اشخاص مختلف ولی برچسب یکسان هستند\relax }}{38}{figure.caption.37}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces در این تصویر یک شیر علاقه‌مند به لاتک را در حال دویدن می‌بینید.\relax }}{47}{figure.caption.40}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces دو شیر\relax }}{56}{figure.caption.44}
-\contentsline {subfigure}{\numberline {(آ)}{\ignorespaces {شیر ۱}}}{56}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(ب)}{\ignorespaces {شیر ۲}}}{56}{subfigure.1.2}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces یک نمودار زیبا با ارقام فارسی و قابلیت بزرگ‌نمایی بسیار، بدون از دست دادن کیفیت.\relax }}{57}{figure.caption.45}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces نحوه برش زدن تصادفی چهره با مقداری از پس‌زمینه\relax }}{44}{figure.caption.38}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces نمودار میزان خطای برابر\relax }}{45}{figure.caption.39}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces نمودار خطای برابر برای شبکه ALEXNET و تابع هزینه BCE\relax }}{47}{figure.caption.40}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces نمودار خطای برابر هنگام استفاده از عملگر LBP پیشنهادی\relax }}{47}{figure.caption.41}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces نمودار خطای برابر هنگام استفاده از شبکه efficient net\relax }}{48}{figure.caption.42}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces نمودار خطای برابر هنگام استفاده از تابع هزینه ARCB پیشنهادی\relax }}{48}{figure.caption.43}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces نمودار خطای برابر با استفاده از تابع هزینه مبتنی بر شناسه اشخاص\relax }}{49}{figure.caption.44}
 \addvspace {10\p@ }

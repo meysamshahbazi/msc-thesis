@@ -1,8 +1,8 @@
 \contentsline {paragraph}{واژگان کلیدی}{هفده}{section*.3}
-\contentsline {chapter}{فهرست تصاویر}{ث}{section*.4}
-\contentsline {chapter}{فهرست جداول}{چ}{section*.5}
-\contentsline {chapter}{فهرست الگوریتم‌ها}{ح}{section*.5}
-\contentsline {chapter}{\rl {فهرست برنامه‌ها}}{د}{chapter*.6}
+\contentsline {chapter}{فهرست تصاویر}{ت}{section*.4}
+\contentsline {chapter}{فهرست جداول}{ج}{section*.5}
+\contentsline {chapter}{فهرست الگوریتم‌ها}{چ}{section*.5}
+\contentsline {chapter}{\rl {فهرست برنامه‌ها}}{ح}{chapter*.6}
 \contentsline {chapter}{\numberline {1}مقدمه}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}پیشگفتار}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}اهداف}{3}{section.1.2}
@@ -13,7 +13,7 @@
 \contentsline {section}{\numberline {2.2}تحلیل ریز بافت و عملگر LBP}{7}{section.2.2}
 \contentsline {section}{\numberline {2.3}روش‌های مبتنی بر یادگیری عمیق}{10}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}ترکیب روش‌های یادگیری عمیق و ویژگی‌های دستی}{11}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}استفاده از تخمین سیگنال کمکی}{13}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}استفاده از تخمین سیگنال کمکی}{12}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}استفاده از شبکه‌های مولد تهاجمی و تابع هزینه‌های مختلف}{18}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}دیتاست‌های مورد استفاده}{24}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}دیتاست Replay}{24}{subsection.2.4.1}
@@ -21,53 +21,31 @@
 \contentsline {subsection}{\numberline {2.4.3}دیتاست MSU}{26}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}دیتاست OULU}{26}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}دیتاست SIW}{28}{subsection.2.4.5}
-\contentsline {chapter}{\numberline {3}روش تحقیق}{29}{chapter.3}
+\contentsline {chapter}{\numberline {3}روش پیشنهادی}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}مقدمه}{29}{section.3.1}
-\contentsline {section}{\numberline {3.2}محتوا (نام‌گذاری بر اساس روش تحقیق و مسأله مورد مطالعه)}{29}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}علت انتخاب روش}{29}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}تشریح کامل روش تحقیق}{29}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}نتایج}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}مقدمه}{33}{section.4.1}
-\contentsline {section}{\numberline {4.2}نتایج روی دیتاست‌های CASIA و MSU}{33}{section.4.2}
-\contentsline {section}{\numberline {4.3}محتوا}{34}{section.4.3}
-\contentsline {section}{\numberline {4.4}اعتبارسنجی}{34}{section.4.4}
-\contentsline {chapter}{\numberline {5}بحث و نتیجه‌گیری}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}مقدمه}{35}{section.5.1}
-\contentsline {section}{\numberline {5.2}محتوا}{36}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}جمع‌بندی}{36}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}نوآوری}{36}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}پیشنهادها}{37}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}محدودیت‌ها}{37}{subsection.5.2.4}
-\contentsline {chapter}{مراجع}{39}{chapter*.39}
+\contentsline {section}{\numberline {3.2}مروری بر عملگر کانولوشن و شبکه‌های کانولوشن}{30}{section.3.2}
+\contentsline {section}{\numberline {3.3}عملگر تحلیل ریزبافت قابل آموزش}{31}{section.3.3}
+\contentsline {section}{\numberline {3.4}تابع هزینه ARCB}{32}{section.3.4}
+\contentsline {section}{\numberline {3.5}تابع هزینه بر اساس شناسه‌ی شخص}{35}{section.3.5}
+\contentsline {section}{\numberline {3.6}مقایسه‌ی روش پیشنهادی با پژوهش‌های قبلی}{39}{section.3.6}
+\contentsline {chapter}{\numberline {4}نتایج}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}مقدمه}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}ملاحظات پیاده‌سازی}{41}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}پیاده سازی LBP قابل آموزش}{42}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}پیاده‌سازی تابع هزینه}{42}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}بارگذاری داده‌ها برای آموزش}{42}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}معیارهای ارزیابی}{44}{section.4.3}
+\contentsline {section}{\numberline {4.4}عملکرد مدل در دیتاست‌ها}{46}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}اثر عملگر LBP قابل آموزش در دیتاست Replay}{46}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}اثر تابع هزینه ARCB در دیتاست Replay}{48}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}اثر تابع هزینه بر پایه شناسه‌ی اشخاص در دیتاست Replay}{49}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}نتایج روی دیتاست‌های CASIA و MSU}{49}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}دقت در دیتاست SIW}{50}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}دقت در دیتاست OULU}{51}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}نتایج روی آزمون بین دیتاست}{51}{subsection.4.4.7}
+\contentsline {chapter}{\numberline {5}نتیجه‌گیری و کارهای آینده}{53}{chapter.5}
+\contentsline {section}{\numberline {5.1}نتیجه‌گیری}{53}{section.5.1}
+\contentsline {section}{\numberline {5.2}پیشنهاد کارهای آینده}{54}{section.5.2}
+\contentsline {chapter}{مراجع}{55}{chapter*.50}
  \renewcommand \cftchappresnum {پیوست\nobreakspace {}}\setlength {\cftchapnumwidth }{\mylenapp }
-\contentsline {chapter}{\numberline {6}آشنایی سریع با برخی دستورات لاتک}{45}{chapter.6}
-\contentsline {section}{\numberline {6.1}بندها و زیرنویس‌ها}{45}{section.6.1}
-\contentsline {section}{\numberline {6.2}فرمول‌های ریاضی}{46}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}یک زیربخش}{46}{subsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.1.1}یک زیرزیربخش}{46}{subsubsection.6.2.1.1}
-\contentsline {section}{\numberline {6.3}نوشته‌های فارسی و انگلیسی مخلوط}{47}{section.6.3}
-\contentsline {section}{\numberline {6.4}افزودن تصویر به نوشته}{47}{section.6.4}
-\contentsline {section}{\numberline {6.5}محیط‌های شمارش و نکات}{48}{section.6.5}
-\contentsline {section}{\numberline {6.6}تعریف و قضیه}{48}{section.6.6}
-\contentsline {section}{\numberline {6.7}چگونگی نوشتن و ارجاع به مراجع}{49}{section.6.7}
-\contentsline {chapter}{\numberline {7}‌جدول، نمودار و الگوریتم در لاتک}{51}{chapter.7}
-\contentsline {section}{\numberline {7.1}جدول}{51}{section.7.1}
-\contentsline {section}{\numberline {7.2}معادلات ریاضی و ماتریس‌ها}{52}{section.7.2}
-\contentsline {section}{\numberline {7.3}الگوریتم}{53}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}الگوریتم ساده با دستورهای فارسی}{53}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}الگوریتم پیچیده و تودرتو با دستورهای فارسی}{53}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}الگوریتم با دستورهای لاتین}{53}{subsection.7.3.3}
-\contentsline {section}{\numberline {7.4}کد}{55}{section.7.4}
-\contentsline {section}{\numberline {7.5}تصویر}{55}{section.7.5}
-\contentsline {section}{\numberline {7.6}نمودار}{56}{section.7.6}
-\contentsline {section}{\numberline {7.7}نحوه قرارگیری اشیای شناور}{56}{section.7.7}
-\contentsline {chapter}{\numberline {8}مراجع، واژه‌نامه و حاشیه‌نویسی}{59}{chapter.8}
-\contentsline {section}{\numberline {8.1}مراجع و نقل‌قول‌ها}{59}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1} مدیریت مراجع با \lr {Bib\LRE {T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}}}}{60}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}سبک‌های مورد تأیید دانشگاه تهران}{61}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}سبک‌های فارسی قابل استفاده در زی‌پرشین}{62}{subsection.8.1.3}
-\contentsline {subsection}{\numberline {8.1.4}ساختار فایل مراجع}{63}{subsection.8.1.4}
-\contentsline {subsection}{\numberline {8.1.5}نحوه اجرای \lr {Bib\LRE {T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}}}}{65}{subsection.8.1.5}
-\contentsline {section}{\numberline {8.2}واژه‌نامه‌ها و فهرست اختصارات}{65}{section.8.2}
-\contentsline {section}{\numberline {8.3}حاشیه‌نویسی در نسخه پیش‌نویس}{67}{section.8.3}
-\contentsline {paragraph}{Keywords}{چهارم}{section*.47}
+\contentsline {paragraph}{Keywords}{ششم}{section*.52}

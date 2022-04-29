@@ -7,74 +7,57 @@ A level-1 auxiliary file: ./tex/chapter3.aux
 A level-1 auxiliary file: ./tex/chapter4.aux
 A level-1 auxiliary file: ./tex/chapter5.aux
 The style file: IEEEtran.bst
-A level-1 auxiliary file: ./tex/appendix1.aux
-A level-1 auxiliary file: ./tex/appendix2.aux
-A level-1 auxiliary file: ./tex/appendix3.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ./tex/MyReferences.bib
-Warning--I didn't find a database entry for "Gonzalez02book"
-Warning--I didn't find a database entry for "persianbib87userguide"
-Warning--I didn't find a database entry for "UTThesisGuide"
-Warning--I didn't find a database entry for "Khalighi87xepersian"
-Warning--I didn't find a database entry for "kim2016integrated"
-Warning--I didn't find a database entry for "Baker02limits"
-Warning--I didn't find a database entry for "Amintoosi09video"
-Warning--I didn't find a database entry for "Khalighi07MscThesis"
-Warning--I didn't find a database entry for "Borman04thesis"
-Warning--I didn't find a database entry for "Vahedi87"
-Warning--I didn't find a database entry for "Amintoosi87afzayesh"
-Warning--I didn't find a database entry for "Pedram80osool"
-Warning--I didn't find a database entry for "Pourmousa88mscThesis"
-Warning--I didn't find a database entry for "Omidali82phdThesis"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in parkhi2015deep
 
 Done.
-You've used 46 entries,
+You've used 51 entries,
             4087 wiz_defined-function locations,
-            1085 strings with 17304 characters,
-and the built_in function-call counts, 39494 in all, are:
-= -- 2976
-> -- 1154
-< -- 325
-+ -- 622
-- -- 215
-* -- 1896
-:= -- 5479
-add.period$ -- 109
-call.type$ -- 46
-change.case$ -- 46
-chr.to.int$ -- 816
-cite$ -- 47
-duplicate$ -- 2770
-empty$ -- 3331
-format.name$ -- 255
-if$ -- 9353
+            1085 strings with 17845 characters,
+and the built_in function-call counts, 44385 in all, are:
+= -- 3369
+> -- 1281
+< -- 377
++ -- 700
+- -- 241
+* -- 2138
+:= -- 6148
+add.period$ -- 119
+call.type$ -- 51
+change.case$ -- 51
+chr.to.int$ -- 942
+cite$ -- 52
+duplicate$ -- 3098
+empty$ -- 3701
+format.name$ -- 280
+if$ -- 10505
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 503
-newline$ -- 161
-num.names$ -- 46
-pop$ -- 1294
+int.to.str$ -- 51
+missing$ -- 557
+newline$ -- 176
+num.names$ -- 51
+pop$ -- 1415
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2997
+skip$ -- 3372
 stack$ -- 0
-substring$ -- 1974
-swap$ -- 2244
-text.length$ -- 53
+substring$ -- 2289
+swap$ -- 2541
+text.length$ -- 63
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 46
+type$ -- 51
 warning$ -- 1
-while$ -- 191
-width$ -- 48
-write$ -- 442
-(There were 15 warnings)
+while$ -- 212
+width$ -- 53
+write$ -- 492
+(There was 1 warning)

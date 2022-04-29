@@ -57,16 +57,25 @@ twoside
 \include{./tex/chapter4}		% فصل چهارم: نتایج
 \include{./tex/chapter5}		% فصل پنجم: بحث و نتیجه‌گیری
 
-% مراجع
+% منابع
 % اگر از استیل‌های natbib استفاده می‌کنید باید دو خط را در فایل commands.tex تغییر دهید.
 \pagestyle{empty}
 {
+
 \small
 \onehalfspacing
-% \bibliographystyle{plain-fa} % or plainnat-fa for author-date
+%\bibliographystyle{plain-fa} % or plainnat-fa for author-date
+
 \bibliographystyle{IEEEtran}
+\setLTRbibitems
 \bibliography{./tex/MyReferences}
+
+
 }
+
+
+
+
 
 \pagestyle{fancy}
 
@@ -87,9 +96,9 @@ twoside
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
 
-\include{./tex/appendix1}		% پیوست اول: آشنایی مقدماتی با لاتک
-\include{./tex/appendix2}		% پیوست دوم: جدول، نمودار و الگوریتم در لاتک
-\include{./tex/appendix3}   	% پیوست سوم: مراجع، واژه‌نامه و حاشیه‌نویسی
+%\include{./tex/appendix1}		% پیوست اول: آشنایی مقدماتی با لاتک
+%\include{./tex/appendix2}		% پیوست دوم: جدول، نمودار و الگوریتم در لاتک
+%\include{./tex/appendix3}   	% پیوست سوم: مراجع، واژه‌نامه و حاشیه‌نویسی
 
 % برگرداندن شماره‌بندی صفحات فصول
 % \let\chapter\Chapter
