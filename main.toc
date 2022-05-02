@@ -7,45 +7,46 @@
 \contentsline {section}{\numberline {1.1}پیشگفتار}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}اهداف}{3}{section.1.2}
 \contentsline {section}{\numberline {1.3}دستاورد‌های پژوهش}{4}{section.1.3}
-\contentsline {section}{\numberline {1.4}ساختار پایان‌نامه}{4}{section.1.4}
-\contentsline {chapter}{\numberline {2}مروری بر مطالعات انجام شده}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}مقدمه}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}تحلیل ریز بافت و عملگر LBP}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}روش‌های مبتنی بر یادگیری عمیق}{10}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}ترکیب روش‌های یادگیری عمیق و ویژگی‌های دستی}{11}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}استفاده از تخمین سیگنال کمکی}{12}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}استفاده از شبکه‌های مولد تهاجمی و تابع هزینه‌های مختلف}{18}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}دیتاست‌های مورد استفاده}{24}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}دیتاست Replay}{24}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}دیتاست CASIA}{25}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}دیتاست MSU}{26}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}دیتاست OULU}{26}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}دیتاست SIW}{28}{subsection.2.4.5}
-\contentsline {chapter}{\numberline {3}روش پیشنهادی}{29}{chapter.3}
-\contentsline {section}{\numberline {3.1}مقدمه}{29}{section.3.1}
-\contentsline {section}{\numberline {3.2}مروری بر عملگر کانولوشن و شبکه‌های کانولوشن}{30}{section.3.2}
-\contentsline {section}{\numberline {3.3}عملگر تحلیل ریزبافت قابل آموزش}{31}{section.3.3}
-\contentsline {section}{\numberline {3.4}تابع هزینه ARCB}{32}{section.3.4}
-\contentsline {section}{\numberline {3.5}تابع هزینه بر اساس شناسه‌ی شخص}{35}{section.3.5}
-\contentsline {section}{\numberline {3.6}مقایسه‌ی روش پیشنهادی با پژوهش‌های قبلی}{39}{section.3.6}
-\contentsline {chapter}{\numberline {4}نتایج}{41}{chapter.4}
-\contentsline {section}{\numberline {4.1}مقدمه}{41}{section.4.1}
-\contentsline {section}{\numberline {4.2}ملاحظات پیاده‌سازی}{41}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}پیاده سازی LBP قابل آموزش}{42}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}پیاده‌سازی تابع هزینه}{42}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}بارگذاری داده‌ها برای آموزش}{42}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}معیارهای ارزیابی}{44}{section.4.3}
-\contentsline {section}{\numberline {4.4}عملکرد مدل در دیتاست‌ها}{46}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}اثر عملگر LBP قابل آموزش در دیتاست Replay}{46}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}اثر تابع هزینه ARCB در دیتاست Replay}{48}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}اثر تابع هزینه بر پایه شناسه‌ی اشخاص در دیتاست Replay}{49}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}نتایج روی دیتاست‌های CASIA و MSU}{49}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}دقت در دیتاست SIW}{50}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}دقت در دیتاست OULU}{51}{subsection.4.4.6}
-\contentsline {subsection}{\numberline {4.4.7}نتایج روی آزمون بین دیتاست}{51}{subsection.4.4.7}
-\contentsline {chapter}{\numberline {5}نتیجه‌گیری و کارهای آینده}{53}{chapter.5}
-\contentsline {section}{\numberline {5.1}نتیجه‌گیری}{53}{section.5.1}
-\contentsline {section}{\numberline {5.2}پیشنهاد کارهای آینده}{54}{section.5.2}
-\contentsline {chapter}{مراجع}{55}{chapter*.50}
+\contentsline {section}{\numberline {1.4}ساختار پایان‌نامه}{5}{section.1.4}
+\contentsline {chapter}{\numberline {2}مروری بر مطالعات انجام شده}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}مقدمه}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}روش‌های کلاسیک}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}تحلیل ریز بافت و عملگر \lr {LBP}}{9}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}روش‌های مبتنی بر یادگیری عمیق}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}ترکیب روش‌های یادگیری عمیق و ویژگی‌های دستی}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}استفاده از تخمین سیگنال کمکی}{16}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}استفاده از شبکه‌های مولد تهاجمی و تابع هزینه‌های مختلف}{22}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}دیتاست‌های مورد استفاده}{27}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}دیتاست \lr {Replay}}{28}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}دیتاست \lr {CASIA}}{29}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}دیتاست \lr {MSU}}{29}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}دیتاست \lr {OULU}}{29}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}دیتاست \lr {SIW}}{31}{subsection.2.4.5}
+\contentsline {chapter}{\numberline {3}روش پیشنهادی}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}مقدمه}{33}{section.3.1}
+\contentsline {section}{\numberline {3.2}مروری بر عملگر کانولوشن }{34}{section.3.2}
+\contentsline {section}{\numberline {3.3}عملگر تحلیل ریزبافت قابل آموزش}{35}{section.3.3}
+\contentsline {section}{\numberline {3.4}تابع هزینه \lr {ARCB}}{36}{section.3.4}
+\contentsline {section}{\numberline {3.5}تابع هزینه بر اساس شناسه‌ی شخص}{39}{section.3.5}
+\contentsline {section}{\numberline {3.6}مقایسه‌ی روش پیشنهادی با پژوهش‌های قبلی}{43}{section.3.6}
+\contentsline {chapter}{\numberline {4}نتایج}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}مقدمه}{45}{section.4.1}
+\contentsline {section}{\numberline {4.2}ملاحظات پیاده‌سازی}{45}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}پیاده سازی \lr {LBP} قابل آموزش}{46}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}پیاده‌سازی تابع هزینه}{46}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}بارگذاری داده‌ها برای آموزش}{46}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}معیارهای ارزیابی}{48}{section.4.3}
+\contentsline {section}{\numberline {4.4}عملکرد مدل در دیتاست‌ها}{50}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}اثر عملگر \lr {LBP} قابل آموزش در دیتاست \lr {Replay}}{50}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}اثر تابع هزینه \lr {ARCB} در دیتاست \lr {Replay}}{52}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}اثر تابع هزینه بر پایه شناسه‌ی اشخاص در دیتاست \lr {Replay}}{53}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}نتایج روی دیتاست‌های \lr {CASIA} و \lr {MSU}}{53}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}دقت در دیتاست \lr {SIW}}{54}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}دقت در دیتاست \lr {OULU}}{55}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}نتایج روی آزمون بین دیتاست}{55}{subsection.4.4.7}
+\contentsline {chapter}{\numberline {5}نتیجه‌گیری و کارهای آینده}{57}{chapter.5}
+\contentsline {section}{\numberline {5.1}نتیجه‌گیری}{57}{section.5.1}
+\contentsline {section}{\numberline {5.2}پیشنهاد کارهای آینده}{58}{section.5.2}
+\contentsline {chapter}{مراجع}{59}{chapter*.51}
  \renewcommand \cftchappresnum {پیوست\nobreakspace {}}\setlength {\cftchapnumwidth }{\mylenapp }
-\contentsline {paragraph}{Keywords}{ششم}{section*.52}
+\contentsline {paragraph}{Keywords}{70}{section*.53}

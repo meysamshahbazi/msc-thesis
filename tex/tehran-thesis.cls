@@ -152,7 +152,7 @@
 	{\large\bfseries \@projectLabel\ \writtenfor
 	\@degree{} 
 	}
-	{\large\bfseries{در رشتهٔ \@subject}}
+	{\large\bfseries{در رشته \@subject}}
 	\vskip .2cm
 	\centerline{\large \bfseries%
 		گرایش \@field}
@@ -250,7 +250,7 @@
 	{\large\bfseries \@projectLabel{} \writtenfor
 	\@degree{} 
 	}
-	{\large\bfseries{در رشتهٔ \@subject}}
+	{\large\bfseries{در رشته \@subject}}
 	\vskip .2cm
 	\centerline{\large \bfseries%
 		گرایش \@field}
@@ -350,10 +350,10 @@
 \makebox[\textwidth][l]{
 \parbox{0.7\textwidth}{
 \makebox[2cm]{}\hspace{1ex}\makebox[2cm]{به عدد}\makebox[5cm]{به حروف}\\
-\makebox[2cm][l]{با نمرهٔ نهایی}\hspace{1ex}\framebox[2cm]{\strut}\framebox[5cm]{\strut}
+\makebox[2cm][l]{با نمره نهایی}\hspace{1ex}\framebox[2cm]{\strut}\framebox[5cm]{\strut}
 \\
 \\
-\makebox[2cm][l]{و درجهٔ}\hspace{1ex}\framebox[3cm]{\strut}\hspace{1ex}
+\makebox[2cm][l]{و درجه}\hspace{1ex}\framebox[3cm]{\strut}\hspace{1ex}
 ارزیابی کرد.
 }
 }
@@ -364,7 +364,7 @@
 \begin{onehalfspacing}
 \begin{tabular}{| >{\centering\arraybackslash}m{0.03\textwidth} | >{\centering\arraybackslash}m{.17\textwidth} | >{\centering\arraybackslash}m{.17\textwidth} |>{\centering\arraybackslash}m{.1\textwidth}|>{\centering\arraybackslash}m{.2\textwidth}|>{\centering\arraybackslash}m{.15\textwidth}|}
 \hline
-{\bfseries\begin{sideways}ردیف\end{sideways}} & {\bfseries مشخصات هیأت داوران} & {\bfseries نام و نام خانوادگی} & {\bfseries مرتبهٔ دانشگاهی} &	{\bfseries دانشگاه یا مؤسسه} & {\bfseries امضا} \\
+{\bfseries\begin{sideways}ردیف\end{sideways}} & {\bfseries مشخصات هیأت داوران} & {\bfseries نام و نام خانوادگی} & {\bfseries مرتبه دانشگاهی} &	{\bfseries دانشگاه یا مؤسسه} & {\bfseries امضا} \\
 \hline
 \ifx\@firstsupervisor\undefined
 \else \stepcounter{davaranCounter}
@@ -396,7 +396,7 @@
 \fi
 \ifx\@graduatedeputy\undefined%
 \else \stepcounter{davaranCounter}
-\arabic{davaranCounter} & نمایندهٔ تحصیلات تکمیلی دانشکده & \@graduatedeputy & \@graduatedeputyrank &  دانشگاه تهران & \rule[-.3\baselineskip]{0pt}{2\normalbaselineskip} \\
+\arabic{davaranCounter} & نماینده تحصیلات تکمیلی دانشکده & \@graduatedeputy & \@graduatedeputyrank &  دانشگاه تهران & \rule[-.3\baselineskip]{0pt}{2\normalbaselineskip} \\
 \hline
 \fi
 \end{tabular}
@@ -427,7 +427,7 @@
 \thispagestyle{empty}
 \begin{center}
 {\Large \titlefont\bfseries
-تعهدنامهٔ اصالت اثر\\
+تعهدنامه اصالت اثر\\
 }
 \vspace{.5cm}
 باسمه تعالی 
@@ -465,7 +465,7 @@ inner xsep=-1.3cm,inner ysep=0.4cm]
 \begin{persian}
 \begin{center}
 
-\textbf{کلیهٔ حقوق مادی  و معنوی این اثر}
+\textbf{کلیه حقوق مادی  و معنوی این اثر}
  
 \textbf{متعلّق به دانشگاه تهران است.}
 
@@ -669,7 +669,7 @@ Advisors:
 \fi}
 
 \def\onvan{عنوان}
-\def\writtenfor{برای دریافت درجهٔ }
+\def\writtenfor{برای دریافت درجه}
 \def\by{پژوهشگر}
 \def\latinby{By:}
 \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else

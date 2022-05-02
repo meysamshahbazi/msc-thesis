@@ -59,17 +59,17 @@ twoside
 
 % منابع
 % اگر از استیل‌های natbib استفاده می‌کنید باید دو خط را در فایل commands.tex تغییر دهید.
-\pagestyle{empty}
+\pagestyle{fancy}
 {
 
 \small
 \onehalfspacing
 %\bibliographystyle{plain-fa} % or plainnat-fa for author-date
-
-\bibliographystyle{IEEEtran}
+\bibliographystyle{plainnat}
+%\bibliographystyle{IEEEtran}
 \setLTRbibitems
 \bibliography{./tex/MyReferences}
-
+%\normalsize
 
 }
 
@@ -102,7 +102,7 @@ twoside
 
 % برگرداندن شماره‌بندی صفحات فصول
 % \let\chapter\Chapter
-\pagenumbering{tartibi} % اول، دوم، ...
+%\pagenumbering{tartibi} % اول، دوم، ...
 %\baselineskip=.75cm
 
 % چاپ واژه‌نامه‌ها و نمایه 
@@ -116,6 +116,7 @@ twoside
 \baselineskip=.6cm
 \latinabstract
 \latinTitlePage
+
 \end{latin}
 \label{LastPage}
 
