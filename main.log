@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  6 MAY 2022 12:17
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  6 MAY 2022 14:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4147,9 +4147,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-LaTeX Warning: Reference `tab:oulu' on page 61 undefined on input line 352.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -4168,7 +4165,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -4184,7 +4180,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -4902,9 +4898,6 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 123.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 \openout5 = `main.glo'.
@@ -4929,10 +4922,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 45438 strings out of 493007
- 884673 string characters out of 6136719
+ 45437 strings out of 493007
+ 884663 string characters out of 6136719
  1091598 words of memory out of 5000000
- 48184 multiletter control sequences out of 15000+600000
+ 48183 multiletter control sequences out of 15000+600000
  539633 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,16n,96p,10465b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
