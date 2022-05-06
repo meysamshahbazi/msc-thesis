@@ -6,54 +6,58 @@ A level-1 auxiliary file: ./tex/chapter2.aux
 A level-1 auxiliary file: ./tex/chapter3.aux
 A level-1 auxiliary file: ./tex/chapter4.aux
 A level-1 auxiliary file: ./tex/chapter5.aux
-The style file: plain-fa.bst
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ./tex/MyReferences.bib
-Warning--I didn't find a database entry for "tab:cross"
--- plain-fa.bst version 0.9 (2015/05/09) 
--- This is a BibTeX style for XePersian: http://www.parsilatex.com
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in parkhi2015deep
-Warning--can't use both volume and number fields in zhong2020random
 
 Done.
-You've used 61 entries,
-            2546 wiz_defined-function locations,
-            941 strings with 17634 characters,
-and the built_in function-call counts, 30503 in all, are:
-= -- 2805
-> -- 1493
-< -- 39
-+ -- 588
-- -- 524
-* -- 2000
-:= -- 4374
-add.period$ -- 207
-call.type$ -- 61
-change.case$ -- 445
-chr.to.int$ -- 0
-cite$ -- 63
-duplicate$ -- 1092
-empty$ -- 2046
-format.name$ -- 524
-if$ -- 7386
+You've used 65 entries,
+            4087 wiz_defined-function locations,
+            1153 strings with 20336 characters,
+and the built_in function-call counts, 57057 in all, are:
+= -- 4350
+> -- 1595
+< -- 497
++ -- 874
+- -- 291
+* -- 2740
+:= -- 7890
+add.period$ -- 155
+call.type$ -- 65
+change.case$ -- 65
+chr.to.int$ -- 1242
+cite$ -- 66
+duplicate$ -- 3974
+empty$ -- 4789
+format.name$ -- 344
+if$ -- 13540
 int.to.chr$ -- 0
-int.to.str$ -- 61
+int.to.str$ -- 65
 missing$ -- 705
-newline$ -- 555
-num.names$ -- 122
-pop$ -- 529
+newline$ -- 218
+num.names$ -- 65
+pop$ -- 1779
 preamble$ -- 1
-purify$ -- 384
-quote$ -- 0
-skip$ -- 844
+purify$ -- 0
+quote$ -- 2
+skip$ -- 4345
 stack$ -- 0
-substring$ -- 1754
-swap$ -- 415
-text.length$ -- 39
+substring$ -- 3003
+swap$ -- 3272
+text.length$ -- 83
 text.prefix$ -- 0
-top$ -- 4
-type$ -- 244
-warning$ -- 2
-while$ -- 259
-width$ -- 63
-write$ -- 875
-(There were 3 warnings)
+top$ -- 5
+type$ -- 65
+warning$ -- 1
+while$ -- 280
+width$ -- 67
+write$ -- 624
+(There was 1 warning)

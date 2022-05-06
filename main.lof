@@ -17,10 +17,10 @@
 \contentsline {figure}{\numberline {2.14}{\ignorespaces روش استفاده از فیلتر \lr {bilateral} در شبکه عمیق \cite {yu2020face} \relax }}{21}{figure.caption.21}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces تابع هزینه \lr {BCE} روی یک صفحه مسطح به‌جای یک نورون \cite {george2019deep} \relax }}{22}{figure.caption.22}
 \contentsline {figure}{\numberline {2.16}{\ignorespaces ساختار بر پایه استفاده از شبکه مولد برای تخمین علائم تقلب در سطوح مختلف \cite {liu2020disentangling} \relax }}{23}{figure.caption.23}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces نحوه عملکرد تابع هزینه سه‌گانه روی فاصله بردارهای ویژگی \cite {schroff2015facenet} \relax }}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces نحوه عملکرد تابع هزینه سه‌گانه روی فاصله بردارهای ویژگی \cite {schroff2015facenet} \relax }}{23}{figure.caption.24}
 \contentsline {figure}{\numberline {2.18}{\ignorespaces نحوه اثر تابع هزینه روی فاصله نمونه‌ها در دیتاست‌های مختلف \cite {shao2019multi} \relax }}{24}{figure.caption.25}
 \contentsline {figure}{\numberline {2.19}{\ignorespaces تابع هزینه نامتقارن برای کاهش فاصله نمونه‌های از یک کلاس \cite {jia2020single} \relax }}{25}{figure.caption.26}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces ساختار U-net و تابع هزینه سه‌گانه \cite {feng2020learning} \relax }}{25}{figure.caption.27}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces ساختار \lr {U-net} و تابع هزینه سه‌گانه \cite {feng2020learning} \relax }}{25}{figure.caption.27}
 \contentsline {figure}{\numberline {2.21}{\ignorespaces کاهش فاصله نمونه‌های واقعی تا مرکز و افزایش فاصله نمونه‌های تقلبی تا مرکز \cite {george2020learning} \relax }}{26}{figure.caption.28}
 \contentsline {figure}{\numberline {2.22}{\ignorespaces استفاده از \lr {LBP} در کنار عمق برای یافتن ویژگی‌های خوش ساخت \cite {zhang2020face} \relax }}{27}{figure.caption.29}
 \contentsline {figure}{\numberline {2.23}{\ignorespaces نمونه‌هایی از دیتاست \lr {Replay} \cite {chingovska2012effectiveness} \relax }}{28}{figure.caption.30}
@@ -30,15 +30,16 @@
 \contentsline {figure}{\numberline {2.27}{\ignorespaces نمونه‌های تقلبی در دیتاست \lr {OULU} \cite {boulkenafet2017oulu} \relax }}{31}{figure.caption.34}
 \contentsline {figure}{\numberline {2.28}{\ignorespaces نمونه‌های از دیتاست \lr {SIW} \cite {liu2018learning} \relax }}{32}{figure.caption.35}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces مقایسه تابع هزینه \lr {BCE} کلاسیک با نسخه‌ی حاشیه‌دار \relax }}{39}{figure.caption.36}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces حالتی که دو نمونه متعلق به یک شخص ولی یکی واقعی و دیگری تقلبی است\relax }}{41}{figure.caption.37}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces حالتی که دو نمونه متعلق به اشخاص مختلف ولی برچسب یکسان هستند\relax }}{42}{figure.caption.38}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces شمای کلی روش پیشنهادی\relax }}{38}{figure.caption.36}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces مقایسه تابع هزینه \lr {BCE} کلاسیک با نسخه‌ی حاشیه‌دار \lr {ARCB} \relax }}{42}{figure.caption.38}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces حالتی که دو نمونه متعلق به یک شخص ولی یکی واقعی و دیگری تقلبی است\relax }}{43}{figure.caption.39}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces حالتی که دو نمونه متعلق به اشخاص مختلف ولی برچسب یکسان هستند\relax }}{45}{figure.caption.40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces نحوه برش زدن تصادفی چهره با مقداری از پس‌زمینه\relax }}{48}{figure.caption.39}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces نمودار میزان خطای برابر\relax }}{49}{figure.caption.40}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces نمودار خطای برابر برای شبکه \lr {ALEXNET} و تابع هزینه \lr {BCE}\relax }}{51}{figure.caption.41}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces نمودار خطای برابر هنگام استفاده از عملگر \lr {LBP} پیشنهادی\relax }}{51}{figure.caption.42}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces نمودار خطای برابر هنگام استفاده از شبکه \lr {efficient net B0}\relax }}{52}{figure.caption.43}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces نمودار خطای برابر هنگام استفاده از تابع هزینه \lr {ARCB} پیشنهادی\relax }}{52}{figure.caption.44}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces نمودار خطای برابر با استفاده از تابع هزینه مبتنی بر شناسه اشخاص\relax }}{53}{figure.caption.45}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces نحوه برش زدن تصادفی چهره با مقداری از پس‌زمینه\relax }}{52}{figure.caption.41}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces نمودار میزان خطای برابر\relax }}{54}{figure.caption.42}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces نمودار خطای برابر برای شبکه \lr {ALEXNET} و تابع هزینه \lr {BCE}\relax }}{56}{figure.caption.43}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces نمودار خطای برابر هنگام استفاده از عملگر \lr {LBP} پیشنهادی\relax }}{56}{figure.caption.44}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces نمودار خطای برابر هنگام استفاده از شبکه \lr {EfficientNet B0}\relax }}{57}{figure.caption.45}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces نمودار خطای برابر هنگام استفاده از تابع هزینه \lr {ARCB} پیشنهادی\relax }}{58}{figure.caption.46}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces نمودار خطای برابر با استفاده از تابع هزینه مبتنی بر شناسه اشخاص\relax }}{59}{figure.caption.47}
 \addvspace {10\p@ }

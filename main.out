@@ -14,7 +14,7 @@
 \BOOKMARK [1][-]{section.2.3}{روش‌های مبتنی بر یادگیری عمیق}{chapter.2}% 14
 \BOOKMARK [2][-]{subsection.2.3.1}{ترکیب روش‌های یادگیری عمیق و ویژگی‌های دستی}{section.2.3}% 15
 \BOOKMARK [2][-]{subsection.2.3.2}{استفاده از تخمین سیگنال کمکی}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.3}{استفاده از شبکه‌های مولد تهاجمی و تابع هزینه‌های مختلف}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{استفاده از شبکه‌های مولد تخاصمی و تابع هزینه‌های مختلف}{section.2.3}% 17
 \BOOKMARK [1][-]{section.2.4}{دیتاست‌های مورد استفاده}{chapter.2}% 18
 \BOOKMARK [2][-]{subsection.2.4.1}{دیتاست Replay}{section.2.4}% 19
 \BOOKMARK [2][-]{subsection.2.4.2}{دیتاست CASIA}{section.2.4}% 20
@@ -23,27 +23,28 @@
 \BOOKMARK [2][-]{subsection.2.4.5}{دیتاست SIW}{section.2.4}% 23
 \BOOKMARK [0][-]{chapter.3}{روش پیشنهادی}{}% 24
 \BOOKMARK [1][-]{section.3.1}{مقدمه}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.2}{مروری بر عملگر کانولوشن }{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.3}{عملگر تحلیل ریزبافت قابل آموزش}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.4}{تابع هزینه ARCB}{chapter.3}% 28
-\BOOKMARK [1][-]{section.3.5}{تابع هزینه بر اساس شناسه‌ی شخص}{chapter.3}% 29
-\BOOKMARK [1][-]{section.3.6}{مقایسه‌ی روش پیشنهادی با پژوهش‌های قبلی}{chapter.3}% 30
-\BOOKMARK [0][-]{chapter.4}{نتایج}{}% 31
-\BOOKMARK [1][-]{section.4.1}{مقدمه}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.2}{ملاحظات پیاده‌سازی}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.2.1}{پیاده سازی LBP قابل آموزش}{section.4.2}% 34
-\BOOKMARK [2][-]{subsection.4.2.2}{پیاده‌سازی تابع هزینه}{section.4.2}% 35
-\BOOKMARK [2][-]{subsection.4.2.3}{بارگذاری داده‌ها برای آموزش}{section.4.2}% 36
-\BOOKMARK [1][-]{section.4.3}{معیارهای ارزیابی}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.4}{عملکرد مدل در دیتاست‌ها}{chapter.4}% 38
-\BOOKMARK [2][-]{subsection.4.4.1}{اثر عملگر LBP قابل آموزش در دیتاست Replay}{section.4.4}% 39
-\BOOKMARK [2][-]{subsection.4.4.2}{اثر تابع هزینه ARCB در دیتاست Replay}{section.4.4}% 40
-\BOOKMARK [2][-]{subsection.4.4.3}{اثر تابع هزینه بر پایه شناسه‌ی اشخاص در دیتاست Replay}{section.4.4}% 41
-\BOOKMARK [2][-]{subsection.4.4.4}{نتایج روی دیتاست‌های CASIA و MSU}{section.4.4}% 42
-\BOOKMARK [2][-]{subsection.4.4.5}{دقت در دیتاست SIW}{section.4.4}% 43
-\BOOKMARK [2][-]{subsection.4.4.6}{دقت در دیتاست OULU}{section.4.4}% 44
-\BOOKMARK [2][-]{subsection.4.4.7}{نتایج روی آزمون بین دیتاست}{section.4.4}% 45
-\BOOKMARK [0][-]{chapter.5}{نتیجه‌گیری و کارهای آینده}{}% 46
-\BOOKMARK [1][-]{section.5.1}{نتیجه‌گیری}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.2}{پیشنهاد کارهای آینده}{chapter.5}% 48
-\BOOKMARK [0][-]{chapter*.51}{مراجع}{}% 49
+\BOOKMARK [1][-]{section.3.2}{مروری بر عملگر کانولوشن}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{عملگر LBP قابل آموزش}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.4}{ساختار شبکه}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.5}{تابع هزینه ARCB}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.6}{تابع هزینه بر اساس شناسه‌ی شخص}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.7}{مقایسه‌ی روش پیشنهادی با پژوهش‌های قبلی}{chapter.3}% 31
+\BOOKMARK [0][-]{chapter.4}{نتایج}{}% 32
+\BOOKMARK [1][-]{section.4.1}{مقدمه}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.2}{ملاحظات پیاده‌سازی}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.2.1}{پیاده سازی LBP قابل آموزش}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.2}{پیاده‌سازی تابع هزینه}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.3}{بارگذاری داده‌ها برای آموزش}{section.4.2}% 37
+\BOOKMARK [1][-]{section.4.3}{معیارهای ارزیابی}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.4}{عملکرد مدل در دیتاست‌ها}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.4.1}{اثر عملگر LBP قابل آموزش در دیتاست Replay}{section.4.4}% 40
+\BOOKMARK [2][-]{subsection.4.4.2}{اثر تابع هزینه ARCB در دیتاست Replay}{section.4.4}% 41
+\BOOKMARK [2][-]{subsection.4.4.3}{اثر تابع هزینه بر پایه شناسه‌ی اشخاص در دیتاست Replay}{section.4.4}% 42
+\BOOKMARK [2][-]{subsection.4.4.4}{نتایج روی دیتاست‌های CASIA و MSU}{section.4.4}% 43
+\BOOKMARK [2][-]{subsection.4.4.5}{دقت در دیتاست SIW}{section.4.4}% 44
+\BOOKMARK [2][-]{subsection.4.4.6}{دقت در دیتاست OULU}{section.4.4}% 45
+\BOOKMARK [2][-]{subsection.4.4.7}{نتایج در آزمون بین دیتاست}{section.4.4}% 46
+\BOOKMARK [0][-]{chapter.5}{نتیجه‌گیری و کارهای آینده}{}% 47
+\BOOKMARK [1][-]{section.5.1}{نتیجه‌گیری}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{پیشنهاد کارهای آینده}{chapter.5}% 49
+\BOOKMARK [0][-]{chapter*.54}{مراجع}{}% 50

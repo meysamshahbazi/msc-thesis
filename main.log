@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  2 MAY 2022 05:15
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  6 MAY 2022 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2084,55 +2084,11 @@ LaTeX Info: Redefining \latinfont on input line 141.
 *************************************************
 * fontspec warning: "language-not-exist"
 * 
-* Language 'Parsi' not available for font 'IRLotusICEE' with script 'Parsi'.
-*  'Default' language used instead.
-*************************************************
-\g__fontspec_family_IRLotusICEE.ttf_int=\count410
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'IRLotusICEE.ttf(0)' created for font 'IRLotusICEE.ttf' with
-. options
-. [Script=Parsi,Language=Parsi,Mapping=parsidigits,Path={./font/},Scale=1.2].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1.2]"[./font/IRLotusICEE.ttf]/OT:script=arab;language=DFLT;mapping=pars
-idigits;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "IRLotusICEE" does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'IRLotusICEE.ttf(1)' created for font 'IRLotusICEE.ttf' with
-. options [Mapping=parsidigits,Path={./font/},Scale=1.2].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[1.2]"[./font/IRLotusICEE.ttf]/OT:mapping=parsidigits;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
-Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
-as'IRLotusICEE.ttf' on input line 147.
-\symOPERATORS=\mathgroup6
-\symnew@mathbf@font@digits=\mathgroup7
-\symnew@mathit@font@digits=\mathgroup8
-\symnew@mathrm@font@digits=\mathgroup9
-*************************************************
-* fontspec warning: "language-not-exist"
-* 
 * Language 'Parsi' not available for font 'IRLotusICEE_Iranic' with script
 * 'Parsi'.
 *  'Default' language used instead.
 *************************************************
-\g__fontspec_family_IRLotusICEE_Iranic.ttf_int=\count411
+\g__fontspec_family_IRLotusICEE_Iranic.ttf_int=\count410
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2147,13 +2103,13 @@ as'IRLotusICEE.ttf' on input line 147.
 ng=parsidigits;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \iranicfamily on input line 149.
+LaTeX Info: Redefining \iranicfamily on input line 150.
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font "IRTitr" does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_IRTitr.ttf_int=\count412
+\g__fontspec_family_IRTitr.ttf_int=\count411
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2166,7 +2122,7 @@ LaTeX Info: Redefining \iranicfamily on input line 149.
 . <->"[./font/IRTitr.ttf]/OT:mapping=parsidigits;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-\symnew@mathsf@font@digits=\mathgroup10
+\symnew@mathsf@font@digits=\mathgroup6
 *************************************************
 * fontspec warning: "language-not-exist"
 * 
@@ -2186,19 +2142,19 @@ LaTeX Info: Redefining \iranicfamily on input line 149.
 ;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-\c@definition=\count413
+\c@definition=\count412
 
-Package amsthm Warning: Unknown theoremstyle `theorem' on input line 207.
+Package amsthm Warning: Unknown theoremstyle `theorem' on input line 208.
 
 \mylenprt=\skip153
 \mylenchp=\skip154
 \mylenapp=\skip155
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 17.27994pt on input line 294.
+(Font)              scaled to size 17.27994pt on input line 295.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/bx/n' will be
-(Font)              scaled to size 17.27994pt on input line 294.
+(Font)              scaled to size 17.27994pt on input line 295.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/bx/n' will be
-(Font)              scaled to size 14.39996pt on input line 295.
+(Font)              scaled to size 14.39996pt on input line 296.
 ) (./tex/faTitle.tex) (./tex/enTitle.tex) (./tex/glossaries-settings.tex
 \glswrite=\write19
 \glo@main@file=\write20
@@ -2219,18 +2175,8 @@ Package glossaries Info: Writing glossary file main.glo on input line 60.
 Package glossaries Info: Writing glossary file main.blo on input line 60.
 )
 (./tex/words.tex) (./tex/acronyms.tex) (./main.aux (./tex/chapter1.aux)
-(./tex/chapter2.aux
-
-LaTeX Warning: Label `eq:bilat' multiply defined.
-
-
-LaTeX Warning: Label `fig:pixel-wise' multiply defined.
-
-) (./tex/chapter3.aux
-
-LaTeX Warning: Label `eq:pyi' multiply defined.
-
-) (./tex/chapter4.aux) (./tex/chapter5.aux)
+(./tex/chapter2.aux) (./tex/chapter3.aux) (./tex/chapter4.aux)
+(./tex/chapter5.aux)
 
 LaTeX Warning: Label `LastPage' multiply defined.
 
@@ -2293,7 +2239,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count414
+\c@lstlisting=\count413
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 46.
@@ -2305,7 +2251,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count415
+\c@section@level=\count414
 )
 LaTeX Info: Redefining \ref on input line 46.
 LaTeX Info: Redefining \pageref on input line 46.
@@ -2348,29 +2294,6 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 14.39996pt on input line 2.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 9.59998pt on input line 2.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 7.19998pt on input line 2.
-
-
-LaTeX Font Warning: Font shape `TU/IRLotusICEE.ttf(1)/bx/n' undefined
-(Font)              using `TU/IRLotusICEE.ttf(1)/m/n' instead on input line 2.
-
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 9.59998pt on input line 2.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 7.19998pt on input line 2.
-
-LaTeX Font Warning: Font shape `TU/IRLotusICEE.ttf(1)/m/it' undefined
-(Font)              using `TU/IRLotusICEE.ttf(1)/m/n' instead on input line 2.
-
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 9.59998pt on input line 2.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 7.19998pt on input line 2.
 File: ./img/logo.png Graphic file (type bmp)
 <./img/logo.png>
 
@@ -2390,8 +2313,6 @@ LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 20.73593pt on input line 2.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/bx/n' will be
 (Font)              scaled to size 20.73593pt on input line 2.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
-(Font)              scaled to size 17.27994pt on input line 2.
 \openout5 = `main.mw'.
 
 [1
@@ -2918,8 +2839,6 @@ Missing character: There is no ٔ in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no ٔ in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
-(Font)              scaled to size 14.39996pt on input line 14.
 Missing character: There is no ٔ in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 
@@ -2927,14 +2846,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 [][]
  []
 
-\c@davaranCounter=\count416
+\c@davaranCounter=\count415
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 13.13995pt on input line 14.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 13.13995pt on input line 14.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 13.13995pt on input line 14.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
 (Font)              scaled to size 13.13995pt on input line 14.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/bx/n' will be
 (Font)              scaled to size 13.13995pt on input line 14.
@@ -2943,8 +2856,6 @@ Overfull \hbox (2.76274pt too wide) in paragraph at lines 14--14
  []\TU/BNazanin(0)/bx/n/10.95 دانشگاهی|[] 
  []
 
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
-(Font)              scaled to size 13.13995pt on input line 14.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
 [][][][]
@@ -2955,10 +2866,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 [][]
  []
 
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 14.39996pt on input line 14.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 14.39996pt on input line 14.
 \openout5 = `main.mw'.
 
 [7] (./main.mw)
@@ -3005,8 +2912,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 [][]
  []
 
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
-(Font)              scaled to size 29.85593pt on input line 14.
 \openout5 = `main.mw'.
 
 [13] (./main.mw)
@@ -3061,15 +2966,9 @@ Missing character: There is no ­ in font B Nazanin/OT:script=arab;language=DFLT
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/bx/n' will be
 (Font)              scaled to size 29.85593pt on input line 19.
  (./main.toc
-
-LaTeX Font Warning: Font shape `TU/IRLotusICEE.ttf(0)/bx/n' undefined
-(Font)              using `TU/IRLotusICEE.ttf(0)/m/n' instead on input line 6.
-
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/bx/n' will be
-(Font)              scaled to size 14.39996pt on input line 6.
 \openout5 = `main.mw'.
 
-[1] (./main.mw)
+ [1] (./main.mw)
 \openout5 = `main.mw'.
 
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
@@ -3117,14 +3016,6 @@ Underfull \vbox (badness 7925) has occurred while \output is active []
 
 \openout5 = `main.mw'.
 
-Missing character: There is no U in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no n in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
 )
 \tf@lof=\write26
 \openout5 = `main.lof'.
@@ -3208,34 +3099,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (./tex/chapter1.tex
 فصل 1.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/bx/n' will be
-(Font)              scaled to size 29.85593pt on input line 3.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/bx/n' will be
-(Font)              scaled to size 20.73593pt on input line 6.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 9.59998pt on input line 12.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/m/n' will be
 (Font)              scaled to size 9.59998pt on input line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 12.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 11.99997pt on input line 12.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 8.39998pt on input line 12.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/n' will be
-(Font)              scaled to size 5.99998pt on input line 12.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 11.99997pt on input line 12.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 8.39998pt on input line 12.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/bx/n' will be
-(Font)              scaled to size 5.99998pt on input line 12.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 11.99997pt on input line 12.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 8.39998pt on input line 12.
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(1)/m/it' will be
-(Font)              scaled to size 5.99998pt on input line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 12.
 \openout5 = `main.mw'.
@@ -3362,8 +3229,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-LaTeX Font Info:    Font shape `TU/IRLotusICEE.ttf(0)/bx/n' will be
-(Font)              scaled to size 17.27994pt on input line 99.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' will be
 (Font)              scaled to size 14.4pt on input line 99.
 
@@ -3547,7 +3412,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./img/central-dif.png Graphic file (type bmp)
 <./img/central-dif.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1902) has occurred while \output is active []
 
 
 
@@ -3570,7 +3435,7 @@ File: ./img/pixel-wise.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1616) has occurred while \output is active []
 
 
 
@@ -3589,10 +3454,6 @@ File: ./img/distang.png Graphic file (type bmp)
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 1565) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3625,32 +3486,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: ./img/asym.png Graphic file (type bmp)
 <./img/asym.png>
-File: ./img/jia.png Graphic file (type bmp)
-<./img/jia.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ./img/cue.png Graphic file (type bmp)
-<./img/cue.png>
-Missing character: There is no U in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no n in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no U in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no n in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3663,11 +3498,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [24] (./main.mw)
 \openout5 = `main.mw'.
 
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+File: ./img/jia.png Graphic file (type bmp)
+<./img/jia.png>
+File: ./img/cue.png Graphic file (type bmp)
+<./img/cue.png>
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3686,9 +3520,6 @@ File: ./img/zhang.png Graphic file (type bmp)
 <./img/zhang.png>
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -3699,8 +3530,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [26] (./main.mw)
 \openout5 = `main.mw'.
 
-Missing character: There is no m in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
+
+Underfull \vbox (badness 5036) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3713,15 +3545,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [27] (./main.mw)
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 File: ./img/replay.png Graphic file (type bmp)
 <./img/replay.png>
-
-Underfull \vbox (badness 3271) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3732,6 +3557,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 [28] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -3765,10 +3594,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 File: ./img/oulureal.png Graphic file (type bmp)
 <./img/oulureal.png>
 File: ./img/oulufake.png Graphic file (type bmp)
@@ -3778,7 +3603,7 @@ File: ./img/oulufake.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (15.82721pt too wide) in paragraph at lines 657--658
+Overfull \hbox (15.82721pt too wide) in paragraph at lines 688--689
 [][]\TU/BNazanin(0)/m/n/12 همچنین در این دیتاست برای گزارش دقت چهار پروتکل مختل
 ف به‌منظور ارزیابی قابلیت تعمیم‌پذیری[]
  []
@@ -3794,10 +3619,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [30] (./main.mw)
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 File: ./img/siw.png Graphic file (type bmp)
 <./img/siw.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--668
+Underfull \hbox (badness 10000) in paragraph at lines 690--699
 [][]
  []
 
@@ -3856,8 +3685,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \openout5 = `main.mw'.
 
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' will be
+(Font)              scaled to size 17.28pt on input line 25.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6775) has occurred while \output is active []
 
 
 
@@ -3876,6 +3707,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3891,10 +3725,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-Missing character: There is no a in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' will be
-(Font)              scaled to size 17.28pt on input line 75.
+
+Underfull \vbox (badness 1325) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3907,13 +3740,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [36] (./main.mw)
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+File: ./img/model.png Graphic file (type bmp)
+<./img/model.png>
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3926,9 +3754,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [37] (./main.mw)
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
 
-Underfull \vbox (badness 6157) has occurred while \output is active []
+\openout5 = `main.mw'.
 
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3941,15 +3773,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [38] (./main.mw)
 \openout5 = `main.mw'.
 
-File: ./img/arcb.png Graphic file (type bmp)
-<./img/arcb.png>
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-
-
-Package amsmath Warning: Foreign command \atopwithdelims;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 165.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3966,10 +3789,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-File: ./img/pid1.png Graphic file (type bmp)
-<./img/pid1.png>
 
-Underfull \vbox (badness 2111) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -3983,21 +3804,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [40] (./main.mw)
 \openout5 = `main.mw'.
 
-Missing character: There is no d in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-File: ./img/pid2.png Graphic file (type bmp)
-<./img/pid2.png>
+File: ./img/arcb.png Graphic file (type bmp)
+<./img/arcb.png>
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-\openout5 = `main.mw'.
-
-[41] (./main.mw)
-\openout5 = `main.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4011,7 +3822,74 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
+[41] (./main.mw)
+\openout5 = `main.mw'.
+
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 303.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
 [42] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+File: ./img/pid1.png Graphic file (type bmp)
+<./img/pid1.png>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[43] (./main.mw)
+\openout5 = `main.mw'.
+
+File: ./img/pid2.png Graphic file (type bmp)
+<./img/pid2.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[44] (./main.mw)
+\openout5 = `main.mw'.
+
+
+Underfull \vbox (badness 6725) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[45] (./main.mw)
 \openout5 = `main.mw'.
 
 
@@ -4023,7 +3901,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[43] (./main.mw)
+[46] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4039,24 +3917,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[44] (./main.mw)
+[47] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout2 = `./tex/chapter4.aux'.
 
  (./tex/chapter4.tex
-فصل 4.
+\openout5 = `main.mw'.
 
-Underfull \vbox (badness 6348) has occurred while \output is active []
+ [48
+
+
+
+] (./main.mw)
+\openout5 = `main.mw'.
+
+
+فصل 4.
+\openout5 = `main.mw'.
+
+[49] (./main.mw)
+\openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
- [45
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
 
 
 
-]
-(./main.mw)
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[50] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4082,140 +3986,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[46] (./main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-Missing character: There is no b in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no a in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no c in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no h in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no s in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no a in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no m in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no l in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no r in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-\openout5 = `main.mw'.
-
-[47] (./main.mw)
-\openout5 = `main.mw'.
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-\openout5 = `main.mw'.
-
-[48] (./main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-File: ./img/eer.jpeg Graphic file (type bmp)
-<./img/eer.jpeg>
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-\openout5 = `main.mw'.
-
-[49] (./main.mw)
-\openout5 = `main.mw'.
-
-File: ./img/eer-alex-bce.png Graphic file (type bmp)
-<./img/eer-alex-bce.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ./img/eer-lbp.png Graphic file (type bmp)
-<./img/eer-lbp.png>
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-\openout5 = `main.mw'.
-
-[50] (./main.mw)
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-File: ./img/eer-eff.png Graphic file (type bmp)
-<./img/eer-eff.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-\openout5 = `main.mw'.
-
 [51] (./main.mw)
 \openout5 = `main.mw'.
 
-File: ./img/eer-arcb.png Graphic file (type bmp)
-<./img/eer-arcb.png>
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-File: ./img/eer-pid.png Graphic file (type bmp)
-<./img/eer-pid.png>
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4244,134 +4017,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [53] (./main.mw)
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-Missing character: There is no ­ in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no B in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no M in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no h in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no o in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no d in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no u in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no x in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no l in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no a in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no r in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no y in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no L in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no G in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no G in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no B in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no I in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
+File: ./img/eer.jpeg Graphic file (type bmp)
+<./img/eer.jpeg>
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4384,397 +4031,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [54] (./main.mw)
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no B in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no M in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no h in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no o in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no d in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no u in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no x in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no l in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no a in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no r in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no y in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no L in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no G in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no G in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no ± in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no B in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no I in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no r in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no o in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no o in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no c in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no o in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no l in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no r in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no o in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no o in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no c in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no o in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no l in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no B in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no B in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no M in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no h in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no o in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no d in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no G in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no F in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no u in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no x in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no l in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no a in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no r in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no y in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no F in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no a in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no c in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no s in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no L in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no G in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no G in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no x in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no B in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no s in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no E in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no R in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no B in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no P in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no I in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-
-Overfull \hbox (18.47334pt too wide) in paragraph at lines 223--239
- [][][][] 
- []
+File: ./img/eer-alex-bce.png Graphic file (type bmp)
+<./img/eer-alex-bce.png>
 
 
-LaTeX Warning: Citation `tab:cross' on page 55 undefined on input line 245.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4795,81 +4056,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-Missing character: There is no M in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no t in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no h in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no o in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no d in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no N in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no G in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no T in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no u in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no x in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no l in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no i in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no a in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no r in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no y in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no F in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no a in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no c in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no e in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no D in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no s in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no G in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no F in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no A in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no L in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no G in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no S in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-Missing character: There is no C in font B Nazanin/OT:script=arab;language=DFLT
-;mapping=parsidigits;!
-)
+File: ./img/eer-lbp.png Graphic file (type bmp)
+<./img/eer-lbp.png>
+File: ./img/eer-eff.png Graphic file (type bmp)
+<./img/eer-eff.png>
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -4881,20 +4072,150 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [56] (./main.mw)
 \openout5 = `main.mw'.
 
+File: ./img/eer-arcb.png Graphic file (type bmp)
+<./img/eer-arcb.png>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[57] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+File: ./img/eer-pid.png Graphic file (type bmp)
+<./img/eer-pid.png>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[58] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[59] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+Missing character: There is no ­ in font B Nazanin/OT:script=arab;language=DFLT
+;mapping=parsidigits;!
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[60] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+
+
+LaTeX Warning: Reference `tab:oulu' on page 61 undefined on input line 352.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[61] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[62] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+\openout5 = `main.mw'.
+
+[63] (./main.mw)
+\openout5 = `main.mw'.
+
 \openout2 = `./tex/chapter5.aux'.
 
  (./tex/chapter5.tex
+\openout5 = `main.mw'.
+
+ [64
+
+
+
+] (./main.mw)
+\openout5 = `main.mw'.
+
+
 فصل 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \openout5 = `main.mw'.
 
- [57
-
-
-
-]
+ [65]
 (./main.mw)
 \openout5 = `main.mw'.
 
@@ -4915,7 +4236,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[58] (./main.mw)
+[66] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -4924,12 +4245,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (./main.bbl
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 4.
+(Font)              scaled to size 10.95pt on input line 2.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 11.
+(Font)              scaled to size 10.95pt on input line 28.
 \openout5 = `main.mw'.
 
- [59
+ [67
 
 
 ] (./main.mw)
@@ -4948,7 +4269,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[60] (./main.mw)
+[68] (./main.mw)
 \openout5 = `main.mw'.
 
 
@@ -4960,24 +4281,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[61] (./main.mw)
-\openout5 = `main.mw'.
-
-
-Underfull \hbox (badness 3179) in paragraph at lines 327--332
-[][]\TU/TimesNewRoman(0)/m/n/10.95 Pérez-Cabo, Daniel, Jiménez-Cabello, David, 
-Costa-Pazo, Artur, and López-Sastre,[]
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-\openout5 = `main.mw'.
-
-[62] (./main.mw)
+[69] (./main.mw)
 \openout5 = `main.mw'.
 
 
@@ -4989,7 +4293,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[63] (./main.mw)
+[70] (./main.mw)
 \openout5 = `main.mw'.
 
 
@@ -5001,7 +4305,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[64] (./main.mw)
+[71] (./main.mw)
 \openout5 = `main.mw'.
 
 )
@@ -5013,12 +4317,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[65] (./main.mw)
+[1] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
- [66
+ [2
 
 ] (./main.mw)
 \openout5 = `main.mw'.
@@ -5033,7 +4337,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[67
+[3
 
 
 
@@ -5050,7 +4354,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-[68
+[4
 
 
 ] (./main.mw)
@@ -5060,7 +4364,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 No file main.ind.
 \openout5 = `main.mw'.
 
-[69
+[5
 
 
 
@@ -5073,12 +4377,12 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' will be
 (Font)              scaled to size 12.0pt on input line 117.
 \openout5 = `main.mw'.
 
- [70] (./main.mw)
+ [6] (./main.mw)
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
 
- [71
+ [7
 
 ] (./main.mw)
 \openout5 = `main.mw'.
@@ -5135,7 +4439,7 @@ Missing character: There is no i in font B Nazanin Bold/OT:script=arab;language
 AED: lastpage setting LastPage
 \openout5 = `main.mw'.
 
-[72
+[8
 
 ] (./main.mw)
 \openout5 = `main.mw'.
@@ -5423,7 +4727,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 ) (./tex/chapter4.aux
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout5 = `main.mw'.
@@ -5609,12 +4929,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 45398 strings out of 493007
- 885026 string characters out of 6136719
- 1091067 words of memory out of 5000000
- 48143 multiletter control sequences out of 15000+600000
- 539745 words of font info for 128 fonts, out of 8000000 for 9000
+ 45438 strings out of 493007
+ 884673 string characters out of 6136719
+ 1091598 words of memory out of 5000000
+ 48184 multiletter control sequences out of 15000+600000
+ 539633 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,16n,96p,10465b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (99 pages).
+Output written on main.pdf (106 pages).
