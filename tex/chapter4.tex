@@ -405,6 +405,36 @@ $M$
 \end{table}
 
 با مقایسه نتایج دقت در آزمون بین دیتاست و درون دیتاست تفاوت قابل ملاحظه خطا، دیده می‌شود.
+\section{هزینه‌ی محاسباتی مدل ارائه شده}
+یک معیار برای ارزیابی سرعت اجرای شبکه‌عصبی تعداد عملیات ممیز شناور
+\LTRfootnote{Floating Point OPerations} (\lr{FLOPs})
+در یک بار اجرای شبکه است. این مقدار با واحد 
+(\lr{Mac}) \LTRfootnote{Multiply And Accumulate}
+گزارش می‌شود. هر چه مقدار 
+(\lr{FLOPs})
+برای یک شبکه کمتر باشد، هزینه‌ی محاسباتی کمتری نیاز است و در نتیجه سرعت اجرای شبکه بیشتر خواهد بود. جدول 
+\ref{tab:flops}
+مقایسه‌ای بین هزینه محاسباتی روش‌هایی که در بخش قبل دقت آنها گزارش شده‌است به همراه هزینه محاسباتی روش پیشنهادی این پایان‌نامه ارائه می‌کند. 
+
+\begin{table}[!h]
+	\caption{مقایسه‌ی هزینه محاسباتی مدل‌های مختلف}
+	\label{tab:flops}
+	\centering
+	\onehalfspacing
+	\begin{tabular}{|c|l|}
+		\hline \lr{FLOPs}					& \lr{Method}  \\
+		\hline \lr{50.9 GMac}		 		& \cite{liu2018learning} \lr{Auxiliary}   \\
+		\hline \lr{47.48 GMac} 				&\cite{yu2020searching} \lr{CDCN} \\
+		\hline \lr{39.4 GMac} 				&\cite{liu2020disentangling}\lr{STDN} \\
+		\hline \lr{4.64 GMac} 				& \cite{george2019deep} \lr{DeepPixBis} \\
+		\hline \lr{9.53 GMac} 				&\cite{feng2020learning} \lr{LGSC}        \\
+		\hline \lr{15.38 GMac} 				&\cite{tu2020learning}\lr{GFA} \\ 	
+		\hline \lr{1.82 GMac} 				& \cite{li20203dpc}   \lr{3DPC-NET} \\	
+		\hline \lr{400.39 MMac} 			& \lr{ARCB+PID} \\ 
+		\hline
+	\end{tabular}
+\end{table}
+
 
 
 

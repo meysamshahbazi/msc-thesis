@@ -45,9 +45,10 @@
 \contentsline {subsection}{\numberline {4.4.5}دقت در دیتاست \lr {SIW}}{60}{subsection.4.4.5}
 \contentsline {subsection}{\numberline {4.4.6}دقت در دیتاست \lr {OULU}}{61}{subsection.4.4.6}
 \contentsline {subsection}{\numberline {4.4.7}نتایج در آزمون بین دیتاست}{62}{subsection.4.4.7}
+\contentsline {section}{\numberline {4.5}هزینه‌ی محاسباتی مدل ارائه شده}{63}{section.4.5}
 \contentsline {chapter}{\numberline {5}نتیجه‌گیری و کارهای آینده}{65}{chapter.5}
 \contentsline {section}{\numberline {5.1}نتیجه‌گیری}{65}{section.5.1}
 \contentsline {section}{\numberline {5.2}پیشنهاد کارهای آینده}{66}{section.5.2}
-\contentsline {chapter}{مراجع}{67}{chapter*.54}
+\contentsline {chapter}{مراجع}{67}{chapter*.55}
  \renewcommand \cftchappresnum {پیوست\nobreakspace {}}\setlength {\cftchapnumwidth }{\mylenapp }
-\contentsline {paragraph}{Keywords}{ششم}{section*.56}
+\contentsline {paragraph}{Keywords}{ششم}{section*.57}
