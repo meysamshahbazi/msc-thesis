@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  9 MAY 2022 11:53
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  9 MAY 2022 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3843,8 +3843,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [40] (./main.mw)
 \openout5 = `main.mw'.
 
-File: ./img/arcb.png Graphic file (type bmp)
-<./img/arcb.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -3868,7 +3866,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 387.
+(amsmath)                 on input line 440.
+
+
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3890,7 +3892,7 @@ File: ./img/p1-r.png Graphic file (type bmp)
 File: ./img/p1-f.png Graphic file (type bmp)
 <./img/p1-f.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3646) has occurred while \output is active []
 
 
 
@@ -3909,7 +3911,7 @@ File: ./img/p1-r.png Graphic file (type bmp)
 File: ./img/p2-r.png Graphic file (type bmp)
 <./img/p2-r.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7397) has occurred while \output is active []
 
 
 
@@ -4988,10 +4990,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 46348 strings out of 493007
- 909226 string characters out of 6136719
+ 46406 strings out of 493007
+ 910522 string characters out of 6136719
  1105691 words of memory out of 5000000
- 49076 multiletter control sequences out of 15000+600000
+ 49135 multiletter control sequences out of 15000+600000
  539633 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,16n,96p,10465b,1037s stack positions out of 5000i,500n,10000p,200000b,80000s
