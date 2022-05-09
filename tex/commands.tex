@@ -12,6 +12,7 @@
 % بسته‌‌ای برای ظاهر شدن شکل‌ها و تعیین آدرس تصاویر
 \usepackage[final]{graphicx}
 \graphicspath{{./img/}}
+
 % بسته‌های مورد نیاز برای نوشتن کدها، رنگ‌آمیزی آنها و تعیین پوشهٔ کدها
 \usepackage[final]{listings}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
@@ -89,6 +90,52 @@ colorlinks,linkcolor=blue,citecolor=blue,final]{hyperref}
 
 \usepackage{tikz}
 \usetikzlibrary{quotes,arrows.meta}
+\usetikzlibrary{quotes,arrows.meta}
+
+\usetikzlibrary{3d} %for including external image 
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{automata}
+\usetikzlibrary{angles, quotes}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning}
+
+\definecolor{echoreg}{HTML}{2cb1e1}
+\definecolor{olivegreen}{rgb}{0,0.6,0}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\newtoggle{redraw}
+\newtoggle{redraw2}
+
+\tikzset{%
+	pics/cube/.style args={#1/#2/#3/#4}{code={%
+			\begin{scope}[line width=#4mm]
+				\begin{scope}
+					\clip (-#1,-#2,0) -- (#1,-#2,0) -- (#1,#2,0) -- (-#1,#2,0) -- cycle;
+					\filldraw (-#1,-#2,0) -- (#1,-#2,0) -- (#1,#2,0) -- (-#1,#2,0) -- cycle;
+				\end{scope}
+				\iftoggle{redraw}{%
+				}{%
+					\begin{scope}
+						\clip (-#1,-#2,0) -- (-#1-#3,-#2,-#3) -- (-#1-#3,#2,-#3) -- (-#1,#2,0) -- cycle;
+						\filldraw (-#1,-#2,0) -- (-#1-#3,-#2,-#3) -- (-#1-#3,#2,-#3) -- (-#1,#2,0) -- cycle;
+					\end{scope}
+				}
+				\iftoggle{redraw2}{%
+				}{
+					\begin{scope}
+						\clip (-#1,#2,0) -- (-#1-#3,#2,-#3) -- (#1-#3,#2,-#3) -- (#1,#2,0) -- cycle;
+						\filldraw (-#1,#2,0) -- (-#1-#3,#2,-#3) -- (#1-#3,#2,-#3) -- (#1,#2,0) -- cycle;
+					\end{scope}
+				}
+				\node[inner sep=0] (-A) at (-#1-#3*0.5, 0, -#3*0.5) {};
+				\node[inner sep=0] (-B) at (#1-#3*0.5, 0, -#3*0.5) {};
+				
+				\coordinate (-V) at (#1, #2);
+				\coordinate (-W) at (#1, -#2);
+			\end{scope}
+			
+}}}
+
+
 
 
 

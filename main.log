@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  8 MAY 2022 22:44
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  9 MAY 2022 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -870,34 +870,7 @@ File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
 \pgfarrowlength=\dimen268
 \pgfarrowwidth=\dimen269
 \pgfarrowlinewidth=\dimen270
-) (/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
-Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
-\SC@BOXWD=\dimen271
-\SC@CAPWD=\dimen272
-\SC@tempdima=\dimen273
-\SC@tempdimb=\dimen274
-\c@SC@C=\count169
-\SC@BOX=\box47
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathreplacing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
-e.tex
-\pgfdecoratedcompleteddistance=\dimen275
-\pgfdecoratedremainingdistance=\dimen276
-\pgfdecoratedinputsegmentcompleteddistance=\dimen277
-\pgfdecoratedinputsegmentremainingdistance=\dimen278
-\pgf@decorate@distancetomove=\dimen279
-\pgf@decorate@repeatstate=\count170
-\pgfdecorationsegmentamplitude=\dimen280
-\pgfdecorationsegmentlength=\dimen281
-)
-\tikz@lib@dec@box=\box48
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrary3d.code.tex
 File: tikzlibrary3d.code.tex 2013/07/17 v3.0.1a (rcs-revision 1.2)
@@ -925,27 +898,78 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 s.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 
-\pgfnodepartlowerbox=\box49
-\pgfnodeparttwobox=\box50
-\pgfnodepartthreebox=\box51
-\pgfnodepartfourbox=\box52
-\pgfnodeparttwentybox=\box53
-\pgfnodepartnineteenbox=\box54
-\pgfnodeparteighteenbox=\box55
-\pgfnodepartseventeenbox=\box56
-\pgfnodepartsixteenbox=\box57
-\pgfnodepartfifteenbox=\box58
-\pgfnodepartfourteenbox=\box59
-\pgfnodepartthirteenbox=\box60
-\pgfnodeparttwelvebox=\box61
-\pgfnodepartelevenbox=\box62
-\pgfnodeparttenbox=\box63
-\pgfnodepartninebox=\box64
-\pgfnodeparteightbox=\box65
-\pgfnodepartsevenbox=\box66
-\pgfnodepartsixbox=\box67
-\pgfnodepartfivebox=\box68
+\pgfnodepartlowerbox=\box47
+\pgfnodeparttwobox=\box48
+\pgfnodepartthreebox=\box49
+\pgfnodepartfourbox=\box50
+\pgfnodeparttwentybox=\box51
+\pgfnodepartnineteenbox=\box52
+\pgfnodeparteighteenbox=\box53
+\pgfnodepartseventeenbox=\box54
+\pgfnodepartsixteenbox=\box55
+\pgfnodepartfifteenbox=\box56
+\pgfnodepartfourteenbox=\box57
+\pgfnodepartthirteenbox=\box58
+\pgfnodeparttwelvebox=\box59
+\pgfnodepartelevenbox=\box60
+\pgfnodeparttenbox=\box61
+\pgfnodepartninebox=\box62
+\pgfnodeparteightbox=\box63
+\pgfnodepartsevenbox=\box64
+\pgfnodepartsixbox=\box65
+\pgfnodepartfivebox=\box66
 )))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2013/08/28 v3.0.1a (rcs-revision 1.1)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen271
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen272
+\pgfdecoratedremainingdistance=\dimen273
+\pgfdecoratedinputsegmentcompleteddistance=\dimen274
+\pgfdecoratedinputsegmentremainingdistance=\dimen275
+\pgf@decorate@distancetomove=\dimen276
+\pgf@decorate@repeatstate=\count169
+\pgfdecorationsegmentamplitude=\dimen277
+\pgfdecorationsegmentlength=\dimen278
+)
+\tikz@lib@dec@box=\box67
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
+\pgf@layerbox@background=\box68
+\pgf@layerboxsaved@background=\box69
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+\SC@BOXWD=\dimen279
+\SC@CAPWD=\dimen280
+\SC@tempdima=\dimen281
+\SC@tempdimb=\dimen282
+\c@SC@C=\count170
+\SC@BOX=\box70
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
@@ -1071,11 +1095,11 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTpre=\skip120
 \LTpost=\skip121
 \LTchunksize=\count191
-\LTcapwidth=\dimen282
-\LT@head=\box69
-\LT@firsthead=\box70
-\LT@foot=\box71
-\LT@lastfoot=\box72
+\LTcapwidth=\dimen283
+\LT@head=\box71
+\LT@firsthead=\box72
+\LT@foot=\box73
+\LT@lastfoot=\box74
 \LT@cols=\count192
 \LT@rows=\count193
 \c@LT@tables=\count194
@@ -1091,21 +1115,21 @@ Package: glossary-super 2017/11/14 v4.35 (NLCT)
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count196
-\ST@wd=\dimen283
+\ST@wd=\dimen284
 \ST@rightskip=\skip124
 \ST@leftskip=\skip125
 \ST@parfillskip=\skip126
-\ST@pageleft=\dimen284
-\ST@headht=\dimen285
-\ST@tailht=\dimen286
-\ST@pagesofar=\dimen287
-\ST@pboxht=\dimen288
-\ST@lineht=\dimen289
-\ST@stretchht=\dimen290
-\ST@prevht=\dimen291
-\ST@toadd=\dimen292
-\ST@dimen=\dimen293
-\ST@pbox=\box73
+\ST@pageleft=\dimen285
+\ST@headht=\dimen286
+\ST@tailht=\dimen287
+\ST@pagesofar=\dimen288
+\ST@pboxht=\dimen289
+\ST@lineht=\dimen290
+\ST@stretchht=\dimen291
+\ST@prevht=\dimen292
+\ST@toadd=\dimen293
+\ST@dimen=\dimen294
+\ST@pbox=\box75
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2017/11/14 v4.35 (NLCT)
@@ -1132,12 +1156,12 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l__iow_line_target_int=\count272
 \l__iow_one_indent_int=\count273
 \l__iow_indent_int=\count274
-\c_zero_dim=\dimen294
-\c_max_dim=\dimen295
-\l_tmpa_dim=\dimen296
-\l_tmpb_dim=\dimen297
-\g_tmpa_dim=\dimen298
-\g_tmpb_dim=\dimen299
+\c_zero_dim=\dimen295
+\c_max_dim=\dimen296
+\l_tmpa_dim=\dimen297
+\l_tmpb_dim=\dimen298
+\g_tmpa_dim=\dimen299
+\g_tmpb_dim=\dimen300
 \c_zero_skip=\skip128
 \c_max_skip=\skip129
 \l_tmpa_skip=\skip130
@@ -1216,51 +1240,51 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l__regex_submatch_int=\count338
 \l__regex_zeroth_submatch_int=\count339
 \g__regex_trace_regex_int=\count340
-\c_empty_box=\box74
-\l_tmpa_box=\box75
-\l_tmpb_box=\box76
-\g_tmpa_box=\box77
-\g_tmpb_box=\box78
-\l__box_top_dim=\dimen300
-\l__box_bottom_dim=\dimen301
-\l__box_left_dim=\dimen302
-\l__box_right_dim=\dimen303
-\l__box_top_new_dim=\dimen304
-\l__box_bottom_new_dim=\dimen305
-\l__box_left_new_dim=\dimen306
-\l__box_right_new_dim=\dimen307
-\l__box_internal_box=\box79
-\l__coffin_internal_box=\box80
-\l__coffin_internal_dim=\dimen308
-\l__coffin_offset_x_dim=\dimen309
-\l__coffin_offset_y_dim=\dimen310
-\l__coffin_x_dim=\dimen311
-\l__coffin_y_dim=\dimen312
-\l__coffin_x_prime_dim=\dimen313
-\l__coffin_y_prime_dim=\dimen314
-\c_empty_coffin=\box81
-\l__coffin_aligned_coffin=\box82
-\l__coffin_aligned_internal_coffin=\box83
-\l_tmpa_coffin=\box84
-\l_tmpb_coffin=\box85
-\l__coffin_display_coffin=\box86
-\l__coffin_display_coord_coffin=\box87
-\l__coffin_display_pole_coffin=\box88
-\l__coffin_display_offset_dim=\dimen315
-\l__coffin_display_x_dim=\dimen316
-\l__coffin_display_y_dim=\dimen317
-\l__coffin_bounding_shift_dim=\dimen318
-\l__coffin_left_corner_dim=\dimen319
-\l__coffin_right_corner_dim=\dimen320
-\l__coffin_bottom_corner_dim=\dimen321
-\l__coffin_top_corner_dim=\dimen322
-\l__coffin_scaled_total_height_dim=\dimen323
-\l__coffin_scaled_width_dim=\dimen324
+\c_empty_box=\box76
+\l_tmpa_box=\box77
+\l_tmpb_box=\box78
+\g_tmpa_box=\box79
+\g_tmpb_box=\box80
+\l__box_top_dim=\dimen301
+\l__box_bottom_dim=\dimen302
+\l__box_left_dim=\dimen303
+\l__box_right_dim=\dimen304
+\l__box_top_new_dim=\dimen305
+\l__box_bottom_new_dim=\dimen306
+\l__box_left_new_dim=\dimen307
+\l__box_right_new_dim=\dimen308
+\l__box_internal_box=\box81
+\l__coffin_internal_box=\box82
+\l__coffin_internal_dim=\dimen309
+\l__coffin_offset_x_dim=\dimen310
+\l__coffin_offset_y_dim=\dimen311
+\l__coffin_x_dim=\dimen312
+\l__coffin_y_dim=\dimen313
+\l__coffin_x_prime_dim=\dimen314
+\l__coffin_y_prime_dim=\dimen315
+\c_empty_coffin=\box83
+\l__coffin_aligned_coffin=\box84
+\l__coffin_aligned_internal_coffin=\box85
+\l_tmpa_coffin=\box86
+\l_tmpb_coffin=\box87
+\l__coffin_display_coffin=\box88
+\l__coffin_display_coord_coffin=\box89
+\l__coffin_display_pole_coffin=\box90
+\l__coffin_display_offset_dim=\dimen316
+\l__coffin_display_x_dim=\dimen317
+\l__coffin_display_y_dim=\dimen318
+\l__coffin_bounding_shift_dim=\dimen319
+\l__coffin_left_corner_dim=\dimen320
+\l__coffin_right_corner_dim=\dimen321
+\l__coffin_bottom_corner_dim=\dimen322
+\l__coffin_top_corner_dim=\dimen323
+\l__coffin_scaled_total_height_dim=\dimen324
+\l__coffin_scaled_width_dim=\dimen325
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
 \g__driver_image_int=\count341
-\l__driver_tmp_box=\box89
+\l__driver_tmp_box=\box91
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/morewrites/primargs.sty
 Package: primargs 2017/04/10 Parsing arguments of primitives
@@ -1271,7 +1295,7 @@ Package: morewrites 2017/04/20 Always room for a new write
 \g__morewrites_iow=\write5
 \g__morewrites_ior=\read2
 \g__morewrites_group_level_int=\count344
-\g__morewrites_shipout_box=\box90
+\g__morewrites_shipout_box=\box92
 \l__morewrites_collect_next_int=\count345
 \g__morewrites_alloc_write_int=\count346
 )
@@ -1300,9 +1324,9 @@ X
 \l__fontspec_emdef_int=\count357
 \l__fontspec_strong_int=\count358
 \l__fontspec_strongdef_int=\count359
-\l__fontspec_tmpa_dim=\dimen325
-\l__fontspec_tmpb_dim=\dimen326
-\l__fontspec_tmpc_dim=\dimen327
+\l__fontspec_tmpa_dim=\dimen326
+\l__fontspec_tmpb_dim=\dimen327
+\l__fontspec_tmpc_dim=\dimen328
 \g__file_internal_ior=\read3
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
@@ -1886,8 +1910,8 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 . Defining command \setiranicfont with sig. 'O{}mO{}' on line 409.
 .................................................
 \xepersian@tcl=\count405
-\xepersian@ilg=\dimen328
-\xepersian@strutilg=\dimen329
+\xepersian@ilg=\dimen329
+\xepersian@strutilg=\dimen330
 
 (/usr/share/texlive/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersian.def
 File: loadingorder-xepersian.def 2017/09/06 v0.4 making sure that xepersian is 
@@ -1979,7 +2003,7 @@ features for XeTeX engine
 \footinsv@r=\insert251
 \@mpfootinsv@r=\insert250
 \m@m@k=\count406
-\m@m@h=\dimen330
+\m@m@h=\dimen331
 \m@mipn@skip=\skip152
 )
 (/usr/share/texlive/texmf-dist/tex/xelatex/xepersian/extrafootnotefeatures-xepe
@@ -2057,7 +2081,7 @@ lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 14.39996pt on input line 140.
+(Font)              scaled to size 14.39996pt on input line 187.
 \g__fontspec_family_TimesNewRoman_int=\count409
 .................................................
 . fontspec info: "defining-font"
@@ -2080,7 +2104,7 @@ LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \latinfont on input line 141.
+LaTeX Info: Redefining \latinfont on input line 188.
 *************************************************
 * fontspec warning: "language-not-exist"
 * 
@@ -2103,7 +2127,7 @@ LaTeX Info: Redefining \latinfont on input line 141.
 ng=parsidigits;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \iranicfamily on input line 150.
+LaTeX Info: Redefining \iranicfamily on input line 197.
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -2144,17 +2168,17 @@ LaTeX Info: Redefining \iranicfamily on input line 150.
 .................................................
 \c@definition=\count412
 
-Package amsthm Warning: Unknown theoremstyle `theorem' on input line 208.
+Package amsthm Warning: Unknown theoremstyle `theorem' on input line 255.
 
 \mylenprt=\skip153
 \mylenchp=\skip154
 \mylenapp=\skip155
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 17.27994pt on input line 295.
+(Font)              scaled to size 17.27994pt on input line 342.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/bx/n' will be
-(Font)              scaled to size 17.27994pt on input line 295.
+(Font)              scaled to size 17.27994pt on input line 342.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/bx/n' will be
-(Font)              scaled to size 14.39996pt on input line 296.
+(Font)              scaled to size 14.39996pt on input line 343.
 ) (./tex/faTitle.tex) (./tex/enTitle.tex) (./tex/glossaries-settings.tex
 \glswrite=\write19
 \glo@main@file=\write20
@@ -2243,7 +2267,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 46.
-\AtBeginShipoutBox=\box91
+\AtBeginShipoutBox=\box93
 Package hyperref Info: Link coloring OFF on input line 46.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -3213,6 +3237,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: ./img/1_1_09_2f_37.png Graphic file (type bmp)
 <./img/1_1_09_2f_37.png>
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 42.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3230,7 +3256,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 99.
+(Font)              scaled to size 14.4pt on input line 114.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3243,14 +3272,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [9] (./main.mw)
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 File: ./img/lbpexm.png Graphic file (type bmp)
 <./img/lbpexm.png>
-LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 7.19998pt on input line 135.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3263,8 +3286,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [10] (./main.mw)
 \openout5 = `main.mw'.
 
-File: ./img/lbpmatta.png Graphic file (type bmp)
-<./img/lbpmatta.png>
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
+(Font)              scaled to size 7.19998pt on input line 150.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3277,6 +3304,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [11] (./main.mw)
 \openout5 = `main.mw'.
 
+File: ./img/lbpmatta.png Graphic file (type bmp)
+<./img/lbpmatta.png>
 File: ./img/lbpchin.png Graphic file (type bmp)
 <./img/lbpchin.png>
 
@@ -3290,9 +3319,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12] (./main.mw)
 \openout5 = `main.mw'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -3332,9 +3358,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: ./img/rahman.png Graphic file (type bmp)
 <./img/rahman.png>
-
-Underfull \vbox (badness 7433) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3398,6 +3421,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./img/cdl.png Graphic file (type bmp)
 <./img/cdl.png>
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3411,9 +3437,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: ./img/central-dif.png Graphic file (type bmp)
 <./img/central-dif.png>
-
-Underfull \vbox (badness 1902) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3430,10 +3453,6 @@ File: ./img/bilat.png Graphic file (type bmp)
 <./img/bilat.png>
 File: ./img/pixel-wise.png Graphic file (type bmp)
 <./img/pixel-wise.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \vbox (badness 1616) has occurred while \output is active []
 
@@ -3488,6 +3507,14 @@ File: ./img/asym.png Graphic file (type bmp)
 <./img/asym.png>
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./img/jia.png Graphic file (type bmp)
+<./img/jia.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -3498,10 +3525,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [24] (./main.mw)
 \openout5 = `main.mw'.
 
-File: ./img/jia.png Graphic file (type bmp)
-<./img/jia.png>
 File: ./img/cue.png Graphic file (type bmp)
 <./img/cue.png>
+
+Underfull \vbox (badness 7326) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3516,8 +3544,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: ./img/geo.png Graphic file (type bmp)
 <./img/geo.png>
-File: ./img/zhang.png Graphic file (type bmp)
-<./img/zhang.png>
+
+Underfull \vbox (badness 1178) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3530,9 +3559,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [26] (./main.mw)
 \openout5 = `main.mw'.
 
-
-Underfull \vbox (badness 5036) has occurred while \output is active []
-
+File: ./img/zhang.png Graphic file (type bmp)
+<./img/zhang.png>
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3547,6 +3575,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: ./img/replay.png Graphic file (type bmp)
 <./img/replay.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3569,11 +3604,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: ./img/casia.png Graphic file (type bmp)
 <./img/casia.png>
-File: ./img/msu.png Graphic file (type bmp)
-<./img/msu.png>
 
+Underfull \vbox (badness 7613) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3590,23 +3623,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
+File: ./img/msu.png Graphic file (type bmp)
+<./img/msu.png>
 File: ./img/oulureal.png Graphic file (type bmp)
 <./img/oulureal.png>
-File: ./img/oulufake.png Graphic file (type bmp)
-<./img/oulufake.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (15.82721pt too wide) in paragraph at lines 688--689
-[][]\TU/BNazanin(0)/m/n/12 همچنین در این دیتاست برای گزارش دقت چهار پروتکل مختل
-ف به‌منظور ارزیابی قابلیت تعمیم‌پذیری[]
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3623,15 +3643,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
+File: ./img/oulufake.png Graphic file (type bmp)
+<./img/oulufake.png>
+
+Overfull \hbox (15.82721pt too wide) in paragraph at lines 702--703
+[][]\TU/BNazanin(0)/m/n/12 همچنین در این دیتاست برای گزارش دقت چهار پروتکل مختل
+ف به‌منظور ارزیابی قابلیت تعمیم‌پذیری[]
+ []
+
 File: ./img/siw.png Graphic file (type bmp)
 <./img/siw.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--699
+Underfull \hbox (badness 10000) in paragraph at lines 704--713
 [][]
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3644,10 +3673,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [31] (./main.mw)
 \openout5 = `main.mw'.
 
-\openout5 = `main.mw'.
-
-\openout5 = `main.mw'.
-
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3658,6 +3683,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 [32] (./main.mw)
+\openout5 = `main.mw'.
+
+\openout5 = `main.mw'.
+
 \openout5 = `main.mw'.
 
 \openout2 = `./tex/chapter3.aux'.
@@ -3740,8 +3769,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [36] (./main.mw)
 \openout5 = `main.mw'.
 
-File: ./img/model.png Graphic file (type bmp)
-<./img/model.png>
+
+Underfull \vbox (badness 2818) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3758,9 +3788,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
+File: ./img/1_1_09_2f_37.png Graphic file (type bmp)
+<./img/1_1_09_2f_37.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3772,6 +3808,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [38] (./main.mw)
 \openout5 = `main.mw'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -3829,7 +3868,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 313.
+(amsmath)                 on input line 387.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3846,8 +3885,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \openout5 = `main.mw'.
 
-File: ./img/pid1.png Graphic file (type bmp)
-<./img/pid1.png>
+File: ./img/p1-r.png Graphic file (type bmp)
+<./img/p1-r.png>
+File: ./img/p1-f.png Graphic file (type bmp)
+<./img/p1-f.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3860,8 +3904,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [43] (./main.mw)
 \openout5 = `main.mw'.
 
-File: ./img/pid2.png Graphic file (type bmp)
-<./img/pid2.png>
+File: ./img/p1-r.png Graphic file (type bmp)
+<./img/p1-r.png>
+File: ./img/p2-r.png Graphic file (type bmp)
+<./img/p2-r.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3878,7 +3924,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Underfull \vbox (badness 6725) has occurred while \output is active []
+Underfull \vbox (badness 3735) has occurred while \output is active []
 
 
 
@@ -4254,8 +4300,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
  (./main.bbl
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 28.
 \openout5 = `main.mw'.
@@ -4944,12 +4988,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 45439 strings out of 493007
- 884700 string characters out of 6136719
- 1091598 words of memory out of 5000000
- 48185 multiletter control sequences out of 15000+600000
+ 46348 strings out of 493007
+ 909226 string characters out of 6136719
+ 1105691 words of memory out of 5000000
+ 49076 multiletter control sequences out of 15000+600000
  539633 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,16n,96p,10465b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,16n,96p,10465b,1037s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (106 pages).

@@ -18,15 +18,15 @@
 \contentsline {figure}{\numberline {2.15}{\ignorespaces تابع هزینه \lr {BCE} روی یک صفحه مسطح به‌جای یک نورون \cite {george2019deep} \relax }}{22}{figure.caption.22}
 \contentsline {figure}{\numberline {2.16}{\ignorespaces ساختار بر پایه استفاده از شبکه مولد برای تخمین علائم تقلب در سطوح مختلف \cite {liu2020disentangling} \relax }}{23}{figure.caption.23}
 \contentsline {figure}{\numberline {2.17}{\ignorespaces نحوه عملکرد تابع هزینه سه‌گانه روی فاصله بردارهای ویژگی \cite {schroff2015facenet} \relax }}{23}{figure.caption.24}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces نحوه اثر تابع هزینه روی فاصله نمونه‌ها در دیتاست‌های مختلف \cite {shao2019multi} \relax }}{24}{figure.caption.25}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces نحوه اثر تابع هزینه روی فاصله نمونه‌ها در دیتاست‌های مختلف \cite {shao2019multi} \relax }}{25}{figure.caption.25}
 \contentsline {figure}{\numberline {2.19}{\ignorespaces تابع هزینه نامتقارن برای کاهش فاصله نمونه‌های از یک کلاس \cite {jia2020single} \relax }}{25}{figure.caption.26}
 \contentsline {figure}{\numberline {2.20}{\ignorespaces ساختار \lr {U-net} و تابع هزینه سه‌گانه \cite {feng2020learning} \relax }}{25}{figure.caption.27}
 \contentsline {figure}{\numberline {2.21}{\ignorespaces کاهش فاصله نمونه‌های واقعی تا مرکز و افزایش فاصله نمونه‌های تقلبی تا مرکز \cite {george2020learning} \relax }}{26}{figure.caption.28}
 \contentsline {figure}{\numberline {2.22}{\ignorespaces استفاده از \lr {LBP} در کنار عمق برای یافتن ویژگی‌های خوش ساخت \cite {zhang2020face} \relax }}{27}{figure.caption.29}
-\contentsline {figure}{\numberline {2.23}{\ignorespaces نمونه‌هایی از دیتاست \lr {Replay} \cite {chingovska2012effectiveness} \relax }}{28}{figure.caption.30}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces نمونه‌هایی از دیتاست \lr {Replay} \cite {chingovska2012effectiveness} \relax }}{29}{figure.caption.30}
 \contentsline {figure}{\numberline {2.24}{\ignorespaces نمونه‌هایی از دیتاست \lr {CASIA} \cite {zhang2012face} \relax }}{29}{figure.caption.31}
 \contentsline {figure}{\numberline {2.25}{\ignorespaces نمونه‌هایی از دیتاست \lr {MSU} \cite {wen2015face} \relax }}{30}{figure.caption.32}
-\contentsline {figure}{\numberline {2.26}{\ignorespaces نمونه‌های واقعی در دیتاست \lr {OULU} \cite {boulkenafet2017oulu} \relax }}{30}{figure.caption.33}
+\contentsline {figure}{\numberline {2.26}{\ignorespaces نمونه‌های واقعی در دیتاست \lr {OULU} \cite {boulkenafet2017oulu} \relax }}{31}{figure.caption.33}
 \contentsline {figure}{\numberline {2.27}{\ignorespaces نمونه‌های تقلبی در دیتاست \lr {OULU} \cite {boulkenafet2017oulu} \relax }}{31}{figure.caption.34}
 \contentsline {figure}{\numberline {2.28}{\ignorespaces نمونه‌های از دیتاست \lr {SIW} \cite {liu2018learning} \relax }}{32}{figure.caption.35}
 \addvspace {10\p@ }

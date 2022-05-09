@@ -14,16 +14,18 @@
 
 تفاوت عمده الگوریتم‌های کلاسیک و یادگیری عمیق در قسمت استخراج ویژگی است. بدین صورت که در روش‌های کلاسیک، ویژگی‌ها با استفاده از یک روش ایستا انتخاب می‌شوند ولی در روش‌های شبکه عصبی عمیق با استفاده از بهینه‌سازی یک تابع هزینه، روی داده‌های آموزش، استخراج ویژگی‌های مد نظر یاد گرفته می‌شوند.
 
+
 \begin{figure}[ht]
+	\centering
 \begin{tikzpicture}
 	\tikzstyle{connection}=[ultra thick,every node/.style={sloped,allow upside down},draw=\edgecolor,opacity=0.7]
-	\node[canvas is zy plane at x=0] (temp) at (-3,0,0)
-	{\includegraphics[width=2cm,height=2cm]{1_1_09_2f_37.png}};
+	\node[canvas is zy plane at x=0] (img) at (-3,0,0)
+	{\includegraphics[width=3cm,height=3cm]{1_1_09_2f_37.png}};
 	
 	\draw [color=black]
-	(temp) node[anchor=south] at (-3,-2){\texttt{Input Face}};
+	(img) node[anchor=south] at (-3,-3){\texttt{Input Face}};
 	%\draw[connection] 
-	\draw[->,thick] (-2.5,0) -- (-2,0);
+	\draw[->,thick] (-2.2,0) -- (-1.5,0);
 	
 	\node[trapezium,
 	draw = blue!80,
@@ -32,10 +34,13 @@
 	rotate=270,
 	trapezium stretches = true,
 	minimum width = 2cm, 
-	minimum height = 3cm] (t) at (-.5,0) {\lr{Feature Extraction}};
+	minimum height = 3cm] (t) at (0,0) {\lr{Feature Extraction}};
 	
-	\draw[->,thick] (1.2,0) -- (1.7,0);
-	
+	\draw[->,thick] (1.5,0) -- (2,0);
+	\pic[draw=red!80, fill=red!20] (FF) at (2.5,0) {cube={0.25/1.6/0.25/0.25}};
+	\node[color=black, rotate=270,] at (2.5,0) {\small
+		\lr{Feature Vector}};
+	\draw[->,thick] (2.8,0) -- (3.3,0);
 	\node[rectangle,
 	draw = magenta!80,
 	text = black,
@@ -43,11 +48,21 @@
 	rotate=270,
 	trapezium stretches = true,
 	minimum width = 2cm, 
-	minimum height = 2cm] (t) at (3,0) {\lr{Classification}};
-	
+	minimum height = 2cm] (t) at (4.4,0) {\lr{Classification}};
+	\draw[->,thick] (5.5,0) -- (6,0);
 	%\pic[shift={(1.5,0,0)}] at (4,0) {Ball={name=elt1,%
 	%		fill=\SumColor,opacity=0.6,%
 	%		radius=3,logo=1/0?}};
+	
+	
+	\node[circle,
+	draw=violet,
+	text=black,
+	fill=violet!50] (c) at (6.6,0){\lr{0/1}};
+	
+	\draw [color=black]
+	(c) node[anchor=south] at (6.6,-1.3){\texttt{Label}};
+	
 	
 \end{tikzpicture}
 \caption{ساختار کلی الگوریتم‌های کشف تقلب در چهره}
@@ -241,20 +256,19 @@ $LBP^{u2}$
  \lr{VGG-face} 
 را روی داده‌های مربوط به تشخیص تقلب تنظیم دقیق کرده‌اند و سپس روی کانال‌های مختلف در لایه‌های شبکه، عملگر \lr{LBP} را اعمال کرده‌اند. با گرفتن هیستوگرام روی آن از \lr{SVM} برای طبقه بندی استفاده کرده‌اند
 \cite{li2019face}.
-
-
 رحمان و همکاران روی تصویر ورودی عملگر \lr{LBP} زده‌اند و با ترکیب ویژگی‌های لایه اول کانولوشن و خروجی \lr{LBP} را به ادامه شبکه عصبی داده‌اند
 \cite{rehman2020enhancing}. 
  این ایده در شکل
 \ref{fig:rahman}
 نشان داده شده است.
-
-روش‌های ترکیبی بین ویژگی‌های دستی و ویژگی‌های یادگیری عمیق دارای یک قسمت ایستا هستند که حین آموزش شبکه تغییری نخواهند کرد. برای روش‌های مبتنی بر شبکه عصبی مطلوب این است که تمامی قسمت‌های شبکه به‌صورت انتها به انتها یاد گرفته شود.
-\begin{figure}[hb]
+\begin{figure}[!h]
 	\centerline{\includegraphics[width=0.5\linewidth]{rahman}}
 	\caption{روش ترکیب \lr{LBP} و کانولوشن \cite{rehman2020enhancing}}
 	\label{fig:rahman}
 \end{figure}
+
+روش‌های ترکیبی بین ویژگی‌های دستی و ویژگی‌های یادگیری عمیق دارای یک قسمت ایستا هستند که حین آموزش شبکه تغییری نخواهند کرد. برای روش‌های مبتنی بر شبکه عصبی مطلوب این است که تمامی قسمت‌های شبکه به‌صورت انتها به انتها یاد گرفته شود.
+
 
 \subsection{استفاده از تخمین سیگنال کمکی}
 در روش‌های بیان شده روال آموزش شبکه عصبی بهینه کردن تابع هزینه آنتروپی متقاطع دودویی

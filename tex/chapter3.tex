@@ -131,12 +131,8 @@ $W_p$
 \end{equation}
 
 
-\begin{figure}[ht]
-	\centerline{\includegraphics[width=\linewidth]{model}}
-	\caption{شمای کلی روش پیشنهادی}
-	\label{fig:model}
-\end{figure}  
-\section{ساختار شبکه}
+ \section{ساختار شبکه}
+
  از آنجا که عملگر  
 $LBP_{tr}$
  یک عملگر تحلیل تصویر در مقیاس ریز است، از این عملگر به‌عنوان لایه اول شبکه عمیق استفاده می‌شود. پس ساختار شبکه به‌صورت شکل 
@@ -157,7 +153,85 @@ $LBP_{tr}$
  است با این تفاوت که 
  \lr{squeeze and excitation} \cite{hu2018squeeze}
  نیز به آن اضافه شده است.
- 
+
+ \begin{figure}[ht]% [width=\linewidth]
+ 	%\centerline{\includegraphics[width=\linewidth]{model}}
+ 	\centering
+ 	\begin{tikzpicture}
+ 		\tikzstyle{connection}=[ultra thick,every node/.style={sloped,allow upside down},draw=\edgecolor,opacity=0.7]
+ 		\node[canvas is zy plane at x=0] (img) at (-5,0,0)
+ 		{\includegraphics[width=3cm,height=3cm]{1_1_09_2f_37.png}};
+ 		
+ 		\draw [color=black]
+ 		(img) node[anchor=south] at (-5,-3){\texttt{Input Face}};
+ 		%\draw[connection] 
+ 		\draw[->,thick] (-4.5,0) -- (-4,0);
+ 		\node[rectangle,
+ 		draw = orange!80,
+ 		text = black,
+ 		fill = orange!20,
+ 		rotate=270,
+ 		trapezium stretches = true,
+ 		minimum width = 4cm, 
+ 		minimum height = 0.75cm] (t) at (-3.6,0) {$LBP_{tr}$};
+ 		\draw[->,thick] (-3.2,0) -- (-2.7,0);
+ 		\node[trapezium,
+ 		draw = blue!80,
+ 		text = black,
+ 		fill = teal!20,
+ 		rotate=270,
+ 		trapezium stretches = true,
+ 		minimum width = 2cm, 
+ 		minimum height = 3cm] (t) at (-1.2,0) {\lr{EfficientNet B0}};
+ 		\draw[->,thick] (0.3,0) -- (0.8,0);
+ 		
+ 		\pic[draw=red!80, fill=red!20] (FF) at (1.2,0) {cube={0.25/1.6/0.25/0.25}};
+ 		\node[color=black, rotate=270,] at (1.2,0) {\small
+ 			\lr{Feature Vector}};
+ 		\draw[->,thick] (1.5,0) -- (2,0);
+ 		\pic[draw=red!80, fill=red!20] (FN) at (2.4,0) {cube={0.25/1.6/0.25/0.25}};
+ 		\node[color=black, rotate=270,] at (2.4,0) {\small
+ 			$L_2 Normalization$};
+ 		\draw[->,thick] (2.7,0) -- (3.2,0);
+ 		\node[rectangle,
+ 		draw = magenta!80,
+ 		text = black,
+ 		fill = magenta!20,
+ 		rotate=270,
+ 		%rectangle stretches = true,
+ 		minimum width = 3cm, 
+ 		minimum height = 2cm] (t) at (4.2,0) {\small \lr{Fully connected}};
+ 		
+ 		\draw[->,thick] (5.2,0) -- (5.7,0);
+ 		
+ 		\node[circle,
+ 		draw=violet,
+ 		text=black,
+ 		fill=violet!50] (c) at (6.25,0){\lr{0/1}};
+ 		
+ 		\node[rectangle,
+ 		draw = black,
+ 		text = black,
+ 		fill = yellow!20,
+ 		%rectangle stretches = true,
+ 		minimum width = 2cm, 
+ 		minimum height = 1cm] (ab) at (6.75,2) {$ArcB\;loss$};
+ 		
+ 		\node[rectangle,
+ 		draw = black,
+ 		text = black,
+ 		fill = yellow!20,
+ 		%rectangle stretches = true,
+ 		minimum width = 2cm, 
+ 		minimum height = 1cm] (pi) at (1.8,-3) {$Pid\;loss$};
+ 		\draw [->,thick] (2.4,-1.6) to [out=-90,in=90] (pi.north); 		
+ 		\draw [->,thick] (c.north) to [out=90,in=-90] (ab.south);
+	
+ 	\end{tikzpicture}
+ 	\caption{شمای کلی روش پیشنهادی}
+ 	\label{fig:model}
+ \end{figure}  
+
  پس از اعمال لایه‌های کانولوشنی یک بردار مسطح با بعد 1280 خواهد بود که با توجه به تابع هزینه‌های مورد استفاده این خروجی لازم است نرمالایز شود.این خروجی نرمالایز شده با یک لایه خطی دیگر به یک نورون ختم خواهد شد. تک نورون لایه‌ی آخر مقداری بین صفر و یک خواهد داشت که برحسب مقدار این نورون و انتخاب یک سطح آستانه طبقه‌بندی دو کلاسه صورت خواهد گرفت.
  
   خروجی نرمالایز شده شبکه کانولوشنی در دو تابع هزینه به کار برده می‌شود. تابع هزینه اول که ‌
@@ -322,7 +396,111 @@ ${N\choose 2}$
   نشان داده شده است. در این شکل تصویر بالایی یک تصویر زنده و تصویر دومی تقلبی است. از آنجا که این دو تصویر شبیه هستند لذا خروجی بردارهای ویژگی آنها ممکن است که نزدیک هم باشند. بردارهای ویژگی به‌صورت ستاره در فضای $d$ بعدی نشان داده شده‌اند. لازم است که این فاصله بیشینه شود.
   
  \begin{figure}[ht]
- 	\centerline{\includegraphics[width=\linewidth]{pid1}}
+ 	%\centerline{\includegraphics[width=\linewidth]{pid1}}
+ \centering
+
+\begin{tikzpicture}
+	\def\r{3}
+	
+	\def\h{2}
+	\tikzstyle{connection}=[ultra thick,every node/.style={sloped,allow upside down},draw=\edgecolor,opacity=0.7]
+	\node[canvas is zy plane at x=0] (im1) at (-5,\h,0)
+	{\includegraphics[width=3cm,height=3cm]{p1-r.png}};
+	\draw[->,thick,green] (-4.5,\h) -- (-4,\h);
+	\node[canvas is zy plane at x=0] (im1) at (-5,-\h,0)
+	{\includegraphics[width=3cm,height=3cm]{p1-f.png}};
+	\draw[->,thick,red] (-4.5,-\h) -- (-4,-\h);
+	%\draw [color=black]
+	%(img) node[anchor=south] at (-5,-3){\texttt{Input Face}};
+	%\draw[connection] 
+	
+	\node[rectangle,
+	draw = orange!80,
+	text = black,
+	fill = orange!20,
+	rotate=270,
+	trapezium stretches = true,
+	minimum width = 3cm, 
+	minimum height = 0.75cm] (t) at (-3.6,\h) {$LBP_{tr}$};
+	
+	\node[rectangle,
+	draw = orange!80,
+	text = black,
+	fill = orange!20,
+	rotate=270,
+	trapezium stretches = true,
+	minimum width = 3cm, 
+	minimum height = 0.75cm] (t) at (-3.6,-\h) {$LBP_{tr}$};
+	
+	\draw[->,thick,green] (-3.2,\h) -- (-2.7,\h);
+	\node[trapezium,
+	draw = blue!80,
+	text = black,
+	fill = teal!20,
+	rotate=270,
+	trapezium stretches = true,
+	minimum width = 1.5cm, 
+	minimum height = 2cm] (t) at (-1.7,\h) {\small \lr{EfficientNet}};
+	
+	\draw[->,thick,red] (-3.2,-\h) -- (-2.7,-\h);
+	\node[trapezium,
+	draw = blue!80,
+	text = black,
+	fill = teal!20,
+	rotate=270,
+	trapezium stretches = true,
+	minimum width = 1.5cm, 
+	minimum height = 2cm] (t) at (-1.7,-\h) {\small \lr{EfficientNet}};
+	
+	\draw[->,thick,green] (-0.7,\h) -- (-0.2,\h);
+	\draw[->,thick,red] (-0.7,-\h) -- (-0.2,-\h);
+	
+	\pic[draw=red!80, fill=red!20] (FF) at (0.25,\h) {cube={0.25/1.2/0.25/0.25}};
+	\node[color=black, rotate=270,] at (0.25,\h) {\small
+		\lr{Feature Vector}};
+	\draw[->,thick,green] (0.55,\h) -- (1.05,\h);
+	\pic[draw=red!80, fill=red!20] (FN) at (1.45,\h) {cube={0.25/1.2/0.25/0.25}};
+	\node[color=black, rotate=270,] at (1.45,\h) {\small
+		$L_2 Norm$};
+	
+	\pic[draw=red!80, fill=red!20] (FF) at (0.25,-\h) {cube={0.25/1.2/0.25/0.25}};
+	\node[color=black, rotate=270,] at (0.25,-\h) {\small
+		\lr{Feature Vector}};
+	\draw[->,thick,red] (0.55,-\h) -- (1.05,-\h);
+	\pic[draw=red!80, fill=red!20] (FN) at (1.45,-\h) {cube={0.25/1.2/0.25/0.25}};
+	\node[color=black, rotate=270,] at (1.45,-\h) {\small
+		$L_2 Norm$};
+	
+	
+	\draw (4, 0) node[circle, fill, inner sep=1] (orig) {};
+	% Sphere
+	
+	
+	% Axes
+	\draw[->] (orig) -- ++(-\r/2, -\r/1.5) node[below] (x1) {$i_1$};
+	\draw[->] (orig) -- ++(\r, 0) node[right] (x2) {$i_2$};
+	\draw[->] (orig) -- ++(0, \r) node[above] (x3) {$i_d$};
+	
+	\draw (5, 2) node[circle, fill,green, inner sep=2,above] (p1r) {};
+	
+	\draw (6, 1) node[circle, fill,red, inner sep=2,above] (p1f) {};
+	
+	\draw [color=black]
+	(p1r) node[anchor=east] {\texttt{$X_{k_1}^{l_1}$}}
+	(p1f) node[anchor=west] {\texttt{$X_{k_2}^{l_2}$}};
+	\draw [->,green,thick] (1.75,+\h) to [out=0,in=90] (p1r.north);
+	
+	\draw [->,red,thick] (1.75,-\h) to [out=0,in=-90] (p1f.south);
+	
+	
+	\draw[<->,thick] (p1r) to (p1f) ;
+	
+	\node[color=black] at (5.75,-\h) {\lr{Normalized space $R^d$}};
+	
+	%\draw [->,thick] (2.4,-1.6) to [out=-90,in=90] (pi.north); 		
+	
+\end{tikzpicture}
+ 
  	\caption{حالتی که دو نمونه متعلق به یک شخص ولی یکی واقعی و دیگری تقلبی است}
  	\label{fig:pid1}
  \end{figure}
@@ -363,7 +541,111 @@ $\max(0,M-d( X_{k_1}^{l_1},X_{k_2}^{l_2} ))$
  $d$ 
 بعدی است. از آنجا که دو فرد ویژگی‌های ظاهری متفاوتی دارند ممکن است فاصله بردارهای ویژگی متناظر با آن‌ها فاصله محسوسی داشته باشد. در این حالت کم کردن این فاصله مد نظر است. 
  \begin{figure}[ht]
-	\centerline{\includegraphics[width=\linewidth]{pid2}}
+	%\centerline{\includegraphics[width=\linewidth]{pid2}}
+	 \centering
+	
+	\begin{tikzpicture}
+		\def\r{3}
+		
+		\def\h{2}
+		\tikzstyle{connection}=[ultra thick,every node/.style={sloped,allow upside down},draw=\edgecolor,opacity=0.7]
+		\node[canvas is zy plane at x=0] (im1) at (-5,\h,0)
+		{\includegraphics[width=3cm,height=3cm]{p1-r.png}};
+		\draw[->,thick,green] (-4.5,\h) -- (-4,\h);
+		\node[canvas is zy plane at x=0] (im1) at (-5,-\h,0)
+		{\includegraphics[width=3cm,height=3cm]{p2-r.png}};
+		\draw[->,thick,red] (-4.5,-\h) -- (-4,-\h);
+		%\draw [color=black]
+		%(img) node[anchor=south] at (-5,-3){\texttt{Input Face}};
+		%\draw[connection] 
+		
+		\node[rectangle,
+		draw = orange!80,
+		text = black,
+		fill = orange!20,
+		rotate=270,
+		trapezium stretches = true,
+		minimum width = 3cm, 
+		minimum height = 0.75cm] (t) at (-3.6,\h) {$LBP_{tr}$};
+		
+		\node[rectangle,
+		draw = orange!80,
+		text = black,
+		fill = orange!20,
+		rotate=270,
+		trapezium stretches = true,
+		minimum width = 3cm, 
+		minimum height = 0.75cm] (t) at (-3.6,-\h) {$LBP_{tr}$};
+		
+		\draw[->,thick,green] (-3.2,\h) -- (-2.7,\h);
+		\node[trapezium,
+		draw = blue!80,
+		text = black,
+		fill = teal!20,
+		rotate=270,
+		trapezium stretches = true,
+		minimum width = 1.5cm, 
+		minimum height = 2cm] (t) at (-1.7,\h) {\small \lr{EfficientNet}};
+		
+		\draw[->,thick,red] (-3.2,-\h) -- (-2.7,-\h);
+		\node[trapezium,
+		draw = blue!80,
+		text = black,
+		fill = teal!20,
+		rotate=270,
+		trapezium stretches = true,
+		minimum width = 1.5cm, 
+		minimum height = 2cm] (t) at (-1.7,-\h) {\small \lr{EfficientNet}};
+		
+		\draw[->,thick,green] (-0.7,\h) -- (-0.2,\h);
+		\draw[->,thick,red] (-0.7,-\h) -- (-0.2,-\h);
+		
+		\pic[draw=red!80, fill=red!20] (FF) at (0.25,\h) {cube={0.25/1.2/0.25/0.25}};
+		\node[color=black, rotate=270,] at (0.25,\h) {\small
+			\lr{Feature Vector}};
+		\draw[->,thick,green] (0.55,\h) -- (1.05,\h);
+		\pic[draw=red!80, fill=red!20] (FN) at (1.45,\h) {cube={0.25/1.2/0.25/0.25}};
+		\node[color=black, rotate=270,] at (1.45,\h) {\small
+			$L_2 Norm$};
+		
+		\pic[draw=red!80, fill=red!20] (FF) at (0.25,-\h) {cube={0.25/1.2/0.25/0.25}};
+		\node[color=black, rotate=270,] at (0.25,-\h) {\small
+			\lr{Feature Vector}};
+		\draw[->,thick,red] (0.55,-\h) -- (1.05,-\h);
+		\pic[draw=red!80, fill=red!20] (FN) at (1.45,-\h) {cube={0.25/1.2/0.25/0.25}};
+		\node[color=black, rotate=270,] at (1.45,-\h) {\small
+			$L_2 Norm$};
+		
+		
+		\draw (4, 0) node[circle, fill, inner sep=1] (orig) {};
+		% Sphere
+		
+		
+		% Axes
+		\draw[->] (orig) -- ++(-\r/2, -\r/1.5) node[below] (x1) {$i_1$};
+		\draw[->] (orig) -- ++(\r, 0) node[right] (x2) {$i_2$};
+		\draw[->] (orig) -- ++(0, \r) node[above] (x3) {$i_d$};
+		
+		\draw (5, 2) node[circle, fill,green, inner sep=2,above] (p1r) {};
+		
+		\draw (7, -1) node[circle, fill,red, inner sep=2,above] (p1f) {};
+		
+		\draw [color=black]
+		(p1r) node[anchor=east] {\texttt{$X_{k_1}^{l_1}$}}
+		(p1f) node[anchor=west] {\texttt{$X_{k_2}^{l_2}$}};
+		\draw [->,green,thick] (1.75,+\h) to [out=0,in=90] (p1r.north);
+		
+		\draw [->,red,thick] (1.75,-\h) to [out=0,in=-180] (p1f.west);
+		
+		
+		\draw[<->,thick] (p1r) to (p1f) ;
+		
+		\node[color=black] at (5.75,-\h) {\lr{Normalized space $R^d$}};
+		
+		%\draw [->,thick] (2.4,-1.6) to [out=-90,in=90] (pi.north); 		
+		
+	\end{tikzpicture}
+
 	\caption{حالتی که دو نمونه متعلق به اشخاص مختلف ولی برچسب یکسان هستند}
 	\label{fig:pid2}
 \end{figure}
