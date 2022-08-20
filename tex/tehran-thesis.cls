@@ -669,7 +669,7 @@ Advisors:
 \fi}
 
 \def\onvan{عنوان}
-\def\writtenfor{برای دریافت درجه}
+\def\writtenfor{برای دریافت درجه }
 \def\by{پژوهشگر}
 \def\latinby{By:}
 \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
