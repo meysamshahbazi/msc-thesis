@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  20 AUG 2022 00:24
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2022.4.22)  20 AUG 2022 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3783,9 +3783,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Underfull \vbox (badness 2818) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3808,10 +3805,6 @@ File: ./img/1_1_09_2f_37.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -3821,9 +3814,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [40] (./main.mw)
 \openout5 = `main.mw'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -3857,10 +3847,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3879,11 +3865,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 440.
-
-
-Underfull \vbox (badness 1097) has occurred while \output is active []
-
+(amsmath)                 on input line 443.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3905,7 +3887,7 @@ File: ./img/p1-r.png Graphic file (type bmp)
 File: ./img/p1-f.png Graphic file (type bmp)
 <./img/p1-f.png>
 
-Underfull \vbox (badness 3646) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -3939,7 +3921,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout5 = `main.mw'.
 
 
-Underfull \vbox (badness 3735) has occurred while \output is active []
+Underfull \vbox (badness 6792) has occurred while \output is active []
 
 
 
@@ -3952,9 +3934,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [47] (./main.mw)
 \openout5 = `main.mw'.
-
-
-Underfull \vbox (badness 3679) has occurred while \output is active []
 
 
 
@@ -5016,7 +4995,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  46410 strings out of 493007
  910554 string characters out of 6136719
- 1104686 words of memory out of 5000000
+ 1104688 words of memory out of 5000000
  49135 multiletter control sequences out of 15000+600000
  539633 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
