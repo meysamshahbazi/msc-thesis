@@ -38,8 +38,8 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces نحوه برش زدن تصادفی چهره با مقداری از پس‌زمینه\relax }}{52}{figure.caption.41}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces نمودار میزان خطای برابر\relax }}{54}{figure.caption.42}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces نمودار خطای برابر برای شبکه \lr {ALEXNET} و تابع هزینه \lr {BCE}\relax }}{56}{figure.caption.43}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces نمودار خطای برابر هنگام استفاده از عملگر \lr {LBP} پیشنهادی\relax }}{56}{figure.caption.44}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces نمودار خطای برابر هنگام استفاده از شبکه \lr {EfficientNet B0}\relax }}{57}{figure.caption.45}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces نمودار خطای برابر هنگام استفاده از تابع هزینه \lr {ARCB} پیشنهادی\relax }}{58}{figure.caption.46}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces نمودار خطای برابر هنگام استفاده از عملگر \lr {LBP} پیشنهادی\relax }}{57}{figure.caption.44}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces نمودار خطای برابر هنگام استفاده از شبکه \lr {EfficientNet B0}\relax }}{58}{figure.caption.45}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces نمودار خطای برابر هنگام استفاده از تابع هزینه \lr {ARCB} پیشنهادی\relax }}{59}{figure.caption.46}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces نمودار خطای برابر با استفاده از تابع هزینه مبتنی بر شناسه اشخاص\relax }}{59}{figure.caption.47}
 \addvspace {10\p@ }

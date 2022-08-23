@@ -25,7 +25,7 @@
 \contentsline {chapter}{\numberline {3}روش پیشنهادی}{33}{chapter.3}
 \contentsline {section}{\numberline {3.1}مقدمه}{33}{section.3.1}
 \contentsline {section}{\numberline {3.2}مروری بر عملگر کانولوشن}{34}{section.3.2}
-\contentsline {section}{\numberline {3.3}عملگر \lr {LBP} قابل آموزش}{35}{section.3.3}
+\contentsline {section}{\numberline {3.3}عملگر \lr {LBP} قابل‌آموزش}{35}{section.3.3}
 \contentsline {section}{\numberline {3.4}ساختار شبکه}{37}{section.3.4}
 \contentsline {section}{\numberline {3.5}تابع هزینه \lr {ARCB}}{39}{section.3.5}
 \contentsline {section}{\numberline {3.6}تابع هزینه بر اساس شناسه‌ی شخص}{42}{section.3.6}
@@ -33,19 +33,19 @@
 \contentsline {chapter}{\numberline {4}نتایج}{49}{chapter.4}
 \contentsline {section}{\numberline {4.1}مقدمه}{49}{section.4.1}
 \contentsline {section}{\numberline {4.2}ملاحظات پیاده‌سازی}{49}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}پیاده سازی \lr {LBP} قابل آموزش}{50}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}پیاده‌سازی \lr {LBP} قابل‌آموزش}{50}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}پیاده‌سازی تابع هزینه}{50}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}بارگذاری داده‌ها برای آموزش}{50}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}معیارهای ارزیابی}{52}{section.4.3}
 \contentsline {section}{\numberline {4.4}عملکرد مدل در دیتاست‌ها}{55}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}اثر عملگر \lr {LBP} قابل آموزش در دیتاست \lr {Replay}}{55}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}اثر تابع هزینه \lr {ARCB} در دیتاست \lr {Replay}}{57}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}اثر تابع هزینه بر پایه شناسه‌ی اشخاص در دیتاست \lr {Replay}}{58}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}نتایج روی دیتاست‌های \lr {CASIA} و \lr {MSU}}{59}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.1}اثر عملگر \lr {LBP} قابل‌آموزش در دیتاست \lr {Replay}}{55}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}اثر تابع هزینه \lr {ARCB} در دیتاست \lr {Replay}}{56}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}اثر تابع هزینه بر پایه شناسه‌ی اشخاص در دیتاست \lr {Replay}}{57}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}نتایج روی دیتاست‌های \lr {CASIA} و \lr {MSU}}{58}{subsection.4.4.4}
 \contentsline {subsection}{\numberline {4.4.5}نتایج در دیتاست \lr {SIW}}{60}{subsection.4.4.5}
 \contentsline {subsection}{\numberline {4.4.6}نتایج در دیتاست \lr {OULU}}{60}{subsection.4.4.6}
 \contentsline {subsection}{\numberline {4.4.7}نتایج در آزمون بین دیتاست}{62}{subsection.4.4.7}
-\contentsline {section}{\numberline {4.5}هزینه‌ی محاسباتی مدل ارائه شده}{63}{section.4.5}
+\contentsline {section}{\numberline {4.5}هزینه‌ی محاسباتی مدل ارائه‌شده}{63}{section.4.5}
 \contentsline {chapter}{\numberline {5}نتیجه‌گیری و کارهای آینده}{65}{chapter.5}
 \contentsline {section}{\numberline {5.1}نتیجه‌گیری}{65}{section.5.1}
 \contentsline {section}{\numberline {5.2}پیشنهاد کارهای آینده}{66}{section.5.2}
